@@ -1,6 +1,7 @@
 <script>
   import MessageBar from "./MessageBar.svelte";
+  import Nav from "./Nav.svelte";
 </script>
 
 <MessageBar/>
-<h1>Fortnite</h1>
+<Nav/>
