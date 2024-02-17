@@ -7,7 +7,7 @@
 </script>
 
 <!-- HEADER CONTAINER -->
-<header class="shadow-sm flex flex-col gap-4 p-4 bg-neutral-50 justify-center box-border relative" id="header" style="padding: {isNavMenuVisible ? '1.20rem' : '0rem'}; height: {isNavMenuVisible ? 'auto' : '10vh'};">
+<header class="shadow-sm flex flex-col gap-4 bg-neutral-50 justify-center box-border p-4 relative" id="header">
 
     <!-- Large Centered Brand -->
     <a href="/"><h1 class="text-4xl lg:text-6xl tracking-tight text-center font-black underline decoration-4 underline-offset-2">Austin Gause</h1></a>
