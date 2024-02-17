@@ -6,20 +6,22 @@
 </script>
 
 <!-- MAIN CONTAINER -->
-<div class="container flex w-full flex-col items-center">
+<div class="w-full flex justify-center">
 
-  <Hero />
+  <div class="container flex flex-col items-center">
+    <Hero />
 
-  <hr class="my-8 h-px w-3/4 border-0 bg-neutral-950" />
+    <hr class="my-8 h-px w-3/4 border-0 bg-neutral-950" />
 
-  <Greeting />
+    <Greeting />
 
-  <hr class="my-8 h-px w-3/4 border-0 bg-neutral-950" />
+    <hr class="my-8 h-px w-3/4 border-0 bg-neutral-950" />
 
-  <Projects />
+    <Projects />
 
-  <hr class="my-8 h-px w-3/4 border-0 bg-neutral-950" />
+    <hr class="my-8 h-px w-3/4 border-0 bg-neutral-950" />
 
-  <Testimonials />
+    <Testimonials />
+  </div>
 
 </div>
