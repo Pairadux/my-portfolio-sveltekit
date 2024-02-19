@@ -8,5 +8,6 @@
     "bracketSameLine": true,
     "tabWidth": 2,
     "bracketSpacing": true,
-    "singleAttributePerLine": true
+    "singleAttributePerLine": true,
+    "printWidth": 3000
 }
