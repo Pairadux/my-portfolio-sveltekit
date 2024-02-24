@@ -1,16 +1,16 @@
 <script lang="ts">
   import DesktopNav from "./DesktopNav.svelte";
   import MobileNav from "./MobileNav.svelte";
-  let temp: boolean = true;
+  import { mobileNavOpen } from "$lib/libStore";
 </script>
 
 <!-- Desktop Navbar With Large Centered Brand -->
-<nav class="">
+<nav class="flex justify-center">
 
-  {#if temp}
-  <DesktopNav />
+  {#if $mobileNavOpen}
+    <MobileNav />
   {:else}
-  <MobileNav />
+    <DesktopNav />
   {/if}
 
 </nav>
