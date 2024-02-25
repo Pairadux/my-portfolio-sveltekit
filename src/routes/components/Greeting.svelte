@@ -1,5 +1,5 @@
 <section class="my-16 flex w-3/4 flex-col items-center">
-  <h1 class="mb-6 text-center text-4xl font-semibold leading-relaxed tracking-tight lg:mb-0">Hi, I'm Austin &#128075</h1>
+  <h1 class="mb-6 text-center text-4xl font-semibold leading-relaxed tracking-tight lg:mb-0">Hi, I'm <span class="text-blue-500">Austin</span> &#128075</h1>
 
   <p class="text-center text-xl">
     A computer science <br class="lg:hidden" /> major passionate about technology and foreign languages.

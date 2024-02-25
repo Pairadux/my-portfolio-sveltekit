@@ -96,6 +96,7 @@
 
 <!-- INTRODUCTION SECTION -->
 <section class="my-16 flex min-h-max w-3/4 flex-col-reverse items-center justify-center gap-16 md:flex-row">
+
     <!-- SKILLS CONTAINER -->
     <div class="relative md:mt-0 md:block">
         <!-- SKILLS HEADER -->
