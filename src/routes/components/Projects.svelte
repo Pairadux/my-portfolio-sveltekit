@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { assets } from "$app/paths";
+  import { assets, base } from "$app/paths";
   const homePortfolioItems = [
     {
       image: "example1.jpg",
@@ -44,7 +44,7 @@
       <p class="text-center text-xl">
         A few of my most recent projects. Want to see more? Head over to my <a
           class="text-blue-500"
-          href="/portfolio">portfolio page</a
+          href="{ base }/portfolio">portfolio page</a
         >.
       </p>
     </div>

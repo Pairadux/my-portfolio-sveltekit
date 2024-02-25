@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import Hero from "./components/Hero.svelte";
   import Greeting from "./components/Greeting.svelte";
   import Projects from "./components/Projects.svelte";
