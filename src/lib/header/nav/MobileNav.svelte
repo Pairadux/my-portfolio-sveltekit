@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import NavItem from "./NavItem.svelte";
   import { mobileNavOpen } from "$lib/libStore";
 

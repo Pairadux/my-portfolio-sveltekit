@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import { assets } from "$app/paths";
   import { onMount } from "svelte";
 
