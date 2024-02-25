@@ -1,7 +1,3 @@
-<script lang="ts">
-  import { base } from "$app/paths";
-</script>
-
 <section class="my-16 flex w-3/4 flex-col items-center">
   <h1 class="mb-6 text-center text-4xl font-semibold leading-relaxed tracking-tight lg:mb-0">Hi, I'm Austin &#128075</h1>
 
@@ -11,7 +7,7 @@
     <br class="hidden lg:inline" />Interested in learning more? Check out my
     <a
       class="italic text-blue-500"
-      href="{ base }/about">about me page</a
+      href="/about">about me page</a
     >.
   </p>
 </section>
