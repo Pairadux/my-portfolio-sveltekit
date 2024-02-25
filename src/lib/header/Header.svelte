@@ -2,6 +2,7 @@
   import MessageBar from "./MessageBar.svelte";
   import Brand from "./Brand.svelte";
   import Nav from "./nav/Nav.svelte";
+  console.log("fortnite");
 </script>
 
 <MessageBar />

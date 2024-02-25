@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import { assets } from "$app/paths";
   import { mobileNavOpen } from "$lib/libStore";
 

@@ -1,4 +1,4 @@
-<script lang="ts">
+<script>
   import DesktopNav from "./DesktopNav.svelte";
   import MobileNav from "./MobileNav.svelte";
   import { mobileNavOpen } from "$lib/libStore";
