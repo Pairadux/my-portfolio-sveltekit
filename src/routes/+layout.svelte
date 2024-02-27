@@ -3,6 +3,8 @@
   import Footer from "$lib/footer/Footer.svelte";
 </script>
 
-<Header/>
-<slot></slot>
+<div class="min-h-screen box-border">
+    <Header/>
+    <slot></slot>
+</div>
 <Footer/>
