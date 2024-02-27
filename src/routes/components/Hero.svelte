@@ -99,31 +99,23 @@
     <!-- SKILLS CONTAINER -->
     <div class="relative md:mt-0 md:block">
         <!-- SKILLS HEADER -->
-        <h2 class="mb-4 text-center text-2xl font-semibold leading-tight tracking-tight">Notable Skills</h2>
+        <h2 class="text-center text-2xl font-semibold leading-tight tracking-tight">Notable Skills</h2>
 
-        <!-- REVEAL DETAILS TEXT -->
-        <!-- <p class="mb-6 hidden text-center font-light leading-none tracking-tight text-neutral-500 md:block">Hover for details</p> -->
+        <p class="mb-4 hidden text-center font-light leading-none tracking-tight text-neutral-500 md:block">Hover for details</p>
         <!-- <p class="mb-6 text-center font-light leading-none tracking-tight text-neutral-500 md:hidden">Tap for details</p> -->
 
         <!-- SKILLS -->
         <div class="grid grid-cols-5 gap-4">
             {#each skills as skill}
-                <div class="flex h-12 w-12 flex-col items-center md:relative md:block md:h-14 md:w-14">
+                <div class="group relative h-12 w-12 md:h-14 md:w-14">
                     <img
                         class="h-14 w-14"
                         src={`${assets}/images/icons/skills/${skill.icon}`}
                         alt="" />
 
-                    <!-- <div class="overlay pointer-events-none invisible absolute left-1/2 top-1/2 z-10 box-border flex h-72 w-72 -translate-x-1/2 -translate-y-1/2 transform flex-col items-center justify-center rounded-md bg-neutral-200 opacity-0 shadow-xl transition-opacity duration-500"> -->
-                    <!--     <img -->
-                    <!--         class="mb-2 block h-12 w-12" -->
-                    <!--         src={`${assets}/images/icons/skills/${skill.icon}`} -->
-                    <!--         alt="" /> -->
-                    <!--     <h2 class="text-xl font-medium leading-snug">{skill.name}</h2> -->
-                    <!--     <p class="text-md box-border px-2 text-center"> -->
-                    <!--         {skill.description} -->
-                    <!--     </p> -->
-                    <!-- </div> -->
+                    <!-- figure out how to get the tooltip working -->
+                    <!-- after:absolute after:top-full after:left-1/2 after:transform after:translate-x-1/2 after:border-4 after:border-solid after:border-transparent -->
+                    <!-- <span class="absolute -top-12 left-1/2 z-20 w-12 -translate-x-1/2 transform rounded-md bg-black p-1 text-center text-white">Test</span> -->
                 </div>
             {/each}
         </div>
