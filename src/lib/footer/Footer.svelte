@@ -9,7 +9,7 @@
 <!-- FOOTER -->
 <footer class="bg-neutral-100 py-6 shadow-inner flex justify-center"> 
 
-    <div class="container gap-4 flex justify-center">
+    <div class="container flex justify-center">
         <!-- <ul class="flex flex-row gap-4"> -->
             <!-- {% for link, viewbox, icon in social_media_svgs % -->
             <!---->
