@@ -4,11 +4,6 @@
 
     const skills = [
         {
-            icon: "python.svg",
-            name: "Python",
-            description: "A versatile and widely-used programming language known for its readability and simplicity. Used in web development, data analysis, AI, and more.",
-        },
-        {
             icon: "html5.svg",
             name: "HTML5",
             description: "The backbone of all websites, HTML5 is used to structure and present content on the web. Though it looks pretty plain without CSS or JavaScript",
@@ -24,9 +19,19 @@
             description: "A powerful programming language that runs in your web browser, making websites interactive and dynamic. It's an essential tool for creating modern, user-friendly websites.",
         },
         {
-            icon: "vscode.svg",
-            name: "VSCode",
-            description: "A popular code editor that provides features like syntax highlighting, intelligent code completion, and debugging support, making coding more efficient.",
+            icon: "svelte.svg",
+            name: "Svelte",
+            description: "",
+        },
+        {
+            icon: "tailwind.svg",
+            name: "Tailwind CSS",
+            description: "A utility-first CSS framework used to rapidly build custom user interfaces. It provides low-level utility classes to build designs directly in your markup.",
+        },
+        {
+            icon: "linux.svg",
+            name: "Linux",
+            description: "",
         },
         {
             icon: "apple.svg",
@@ -34,24 +39,19 @@
             description: "A range of products designed by Apple, typically used in professional settings. My personal weapon of choice for programming on the go.",
         },
         {
-            icon: "django.svg",
-            name: "Django",
-            description: "A high-level Python web framework that encourages rapid development and clean, pragmatic design. Used to build robust and scalable web applications with less code.",
-        },
-        {
             icon: "java.svg",
             name: "Java",
             description: "A widely-used programming language known for its 'write once, run anywhere' capability. Java is used in enterprise-level applications, mobile app development, and more.",
         },
         {
-            icon: "flask.svg",
-            name: "Flask",
-            description: "A lightweight Python web framework used to develop web applications. It's known for its simplicity and adaptability, letting developers choose their own tools and libraries.",
+            icon: "python.svg",
+            name: "Python",
+            description: "A versatile and widely-used programming language known for its readability and simplicity. Used in web development, data analysis, AI, and more.",
         },
         {
-            icon: "tailwind.svg",
-            name: "Tailwind CSS",
-            description: "A utility-first CSS framework used to rapidly build custom user interfaces. It provides low-level utility classes to build designs directly in your markup.",
+            icon: "rust.svg",
+            name: "Rust",
+            description: "",
         },
     ];
 
@@ -96,11 +96,10 @@
 
 <!-- INTRODUCTION SECTION -->
 <section class="my-16 flex min-h-max w-3/4 flex-col-reverse items-center justify-center gap-16 md:flex-row">
-
     <!-- SKILLS CONTAINER -->
     <div class="relative md:mt-0 md:block">
         <!-- SKILLS HEADER -->
-        <h2 class="text-center text-2xl font-semibold leading-tight tracking-tight mb-4">Notable Skills</h2>
+        <h2 class="mb-4 text-center text-2xl font-semibold leading-tight tracking-tight">Notable Skills</h2>
 
         <!-- REVEAL DETAILS TEXT -->
         <!-- <p class="mb-6 hidden text-center font-light leading-none tracking-tight text-neutral-500 md:block">Hover for details</p> -->
