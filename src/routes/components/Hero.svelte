@@ -1,6 +1,5 @@
 <script lang="ts">
     import { assets } from "$app/paths";
-    // import { onMount } from "svelte";
 
     const skills = [
         {
@@ -99,9 +98,9 @@
     <!-- SKILLS CONTAINER -->
     <div class="relative md:mt-0 md:block">
         <!-- SKILLS HEADER -->
-        <h2 class="text-center text-2xl font-semibold leading-tight tracking-tight">Notable Skills</h2>
+        <h2 class="mb-0 text-center text-2xl font-semibold leading-tight tracking-tight md:mb-4">Notable Skills</h2>
 
-        <p class="mb-4 hidden text-center font-light leading-none tracking-tight text-neutral-500 md:block">Hover for details</p>
+        <p class="mb-4 hidden text-center font-light leading-none tracking-tight text-neutral-500 md:visible">Hover for details</p>
         <!-- <p class="mb-6 text-center font-light leading-none tracking-tight text-neutral-500 md:hidden">Tap for details</p> -->
 
         <!-- SKILLS -->
@@ -110,7 +109,7 @@
                 <div class="group relative h-12 w-12 md:h-14 md:w-14">
                     <img
                         class="h-14 w-14"
-                        src={`${assets}/images/icons/skills/${skill.icon}`}
+                        src="{assets}/images/icons/skills/{skill.icon}"
                         alt="" />
 
                     <!-- figure out how to get the tooltip working -->
@@ -126,7 +125,7 @@
         <!-- HEADSHOT -->
         <img
             class="h-64 w-64 rounded-full object-cover object-top"
-            src={`${assets}/images/headshot/senior-photo-headshot-removebg.png`}
+            src="{assets}/images/headshot/senior-photo-headshot-removebg.png"
             alt="" />
 
         <!-- BLOBS -->
