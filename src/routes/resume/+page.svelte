@@ -6,7 +6,7 @@
     <!-- RESUME IMAGE -->
     <img
         class="md:w-3/4 lg:w-1/2"
-        src="{assets}/images/resume/AustinGauseResume.png"
+        src="{assets}/images/resume/AustinGauseResume.jpg"
         alt="" />
 
     <!-- DOWNLOAD OPTIONS -->
@@ -14,8 +14,8 @@
         <p class="text-xl font-medium">
             <a
                 class="text-blue-500"
-                href="{assets}/images/resume/AustinGauseResume.png"
-                download="AustinGauseResume">PNG</a>
+                href="{assets}/images/resume/AustinGauseResume.jpg"
+                download="AustinGauseResume">JPG</a>
         </p>
         <p class="mx-2 text-xl font-medium">|</p>
         <p class="text-xl font-medium">
