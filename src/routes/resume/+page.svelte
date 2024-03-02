@@ -90,7 +90,8 @@ Published Works
         <!-- ACTIVITIES -->
         <h2 class="text-center">Activities</h2>
         <ul>
-            <li>Fortnite</li>
+            <li>ACM (Association of Computing Machinery) Treasurer</li>
+            <li>ACM (Association of Computing Machinery) Member</li>
         </ul>
 
         <!-- CERTIFICIATIONS & ACHIEVEMENTS -->
