@@ -6,7 +6,7 @@
         <h2 class="text-2xl">This site is a work in progress</h2>
         <p class="w-1/2 text-center">This site is in an incomplete state, however, if you still wish to proceed, please click the button below</p>
         <form method="dialog">
-            <button class="p-2 bg-black text-white rounded-lg">Proceed</button>
+            <button class="p-2 mt-2 bg-black text-white rounded-lg">Proceed</button>
         </form>
     </div>
 </dialog>
