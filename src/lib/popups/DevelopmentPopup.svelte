@@ -6,7 +6,7 @@
     <div class="flex items-center justify-center flex-col h-full w-full bg-white">
         <img src="{ assets }/images/icons/alert.svg" alt="" class="h-16">
         <h2 class="text-2xl">This site is a work in progress</h2>
-        <p class="w-1/2 text-center">This site is in an incomplete state, however, if you still wish to proceed, please click the button below</p>
+        <p class="w-3/4 text-center">This site is in an incomplete state, however, if you still wish to proceed, please click the button below</p>
         <form method="dialog">
             <button class="p-2 mt-4 bg-black text-white rounded-lg">Proceed</button>
         </form>
