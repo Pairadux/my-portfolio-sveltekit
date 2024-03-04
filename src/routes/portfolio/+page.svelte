@@ -56,7 +56,7 @@
         <div
             class="relative box-border flex h-screen w-3/4 flex-col items-center justify-center"
             id="itemINDEX">
-            <div class="flex flex-col gap-4 lg:flex-row">
+            <div class="flex flex-col gap-4 md:flex-row">
                 <div>
                     <img
                         class="h-64 w-96 rounded-2xl object-cover shadow-md"
@@ -64,9 +64,9 @@
                         alt="" />
                 </div>
 
-                <div class="box-border p-4 lg:h-64 lg:rounded-2xl lg:bg-neutral-200 lg:shadow-md">
-                    <a href="/"><h1 class="mb-2 text-center text-2xl font-medium leading-snug tracking-tight lg:text-left">{portfolioItem.title}</h1></a>
-                    <p class="max-w-md text-center text-lg lg:text-left">{portfolioItem.description}</p>
+                <div class="box-border p-4 md:h-64 lg:rounded-2xl lg:bg-neutral-300 lg:shadow-md">
+                    <a href="/"><h1 class="mb-2 text-center text-2xl md:text-3xl font-medium leading-snug tracking-tight md:text-left">{portfolioItem.title}</h1></a>
+                    <p class="max-w-md text-center text-lg md:text-xl md:text-left">{portfolioItem.description}</p>
                 </div>
             </div>
 

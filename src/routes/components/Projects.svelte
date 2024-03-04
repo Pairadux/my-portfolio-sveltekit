@@ -38,8 +38,8 @@
 <section class="my-16 flex w-3/4 flex-col items-center gap-12 lg:w-full">
     <!-- TITLE -->
     <div>
-        <h1 class="text-center text-2xl font-semibold tracking-tight">Recent Projects</h1>
-        <p class="text-center text-xl">
+        <h1 class="text-center mb-2 text-2xl md:text-3xl font-semibold tracking-tight">Recent Projects</h1>
+        <p class="text-center text-lg md:text-xl">
             A few of my most recent projects. Want to see more? Head over to my <a
                 class="text-blue-500"
                 href="/portfolio">portfolio page</a
@@ -51,7 +51,7 @@
     <div class="flex flex-col gap-8 lg:grid lg:grid-cols-3">
         {#each homePortfolioItems as portfolioItem}
             <!-- PORTFOLIO ITEMS -->
-            <div class="group relative flex justify-center rounded-2xl bg-neutral-900 shadow-md">
+            <div class="group relative flex justify-center rounded-2xl bg-black shadow-md">
                 <!-- PORTFOLIO IMAGE -->
                 <img
                     class="h-48 w-full rounded-2xl object-cover brightness-50 transition-opacity duration-700 group-hover:opacity-0 lg:h-64"
@@ -59,16 +59,16 @@
                     alt="" />
 
                 <!-- PORTFOLIO TITLE -->
-                <h2 class="absolute left-1/2 top-1/2 w-72 -translate-x-1/2 -translate-y-1/2 text-center text-4xl font-semibold tracking-tight text-neutral-50 transition-opacity duration-300 group-hover:opacity-0">
+                <h1 class="absolute left-1/2 top-1/2 w-72 -translate-x-1/2 -translate-y-1/2 text-center text-2xl md:text-3xl font-semibold tracking-tight text-white transition-opacity duration-300 group-hover:opacity-0">
                     {portfolioItem.title}
-                </h2>
+                </h1>
 
                 <!-- PORTFOLIO HOVER ITEMS -->
-                <div class="absolute left-1/2 top-1/2 flex h-64 w-64 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-4 opacity-0 transition-opacity duration-700 group-hover:opacity-100">
-                    <h2 class="text-center text-4xl font-semibold tracking-tight text-neutral-50 transition">
+                <div class="absolute left-1/2 top-1/2 flex h-64 w-64 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 opacity-0 transition-opacity duration-700 group-hover:opacity-100">
+                    <h1 class="text-center text-2xl md:text-3xl font-semibold tracking-tight text-white transition">
                         {portfolioItem.title}
-                    </h2>
-                    <p class="text-center text-xl text-neutral-50">
+                    </h1>
+                    <p class="text-center text-lg md:text-xl text-white">
                         {portfolioItem.description}
                     </p>
                 </div>

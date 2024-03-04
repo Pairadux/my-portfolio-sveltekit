@@ -98,7 +98,7 @@
     <!-- SKILLS CONTAINER -->
     <div class="relative md:mt-0 md:block">
         <!-- SKILLS HEADER -->
-        <h2 class="mb-0 text-center text-2xl font-semibold leading-tight tracking-tight md:mb-4">Notable Skills</h2>
+        <h2 class="text-center text-2xl font-semibold leading-tight tracking-tight">Notable Skills</h2>
 
         <p class="mb-4 hidden text-center font-light leading-none tracking-tight text-neutral-500 md:block">Hover for details</p>
         <p class="mb-6 text-center font-light leading-none tracking-tight text-neutral-500 md:hidden">Tap for details</p>
