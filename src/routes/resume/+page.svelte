@@ -21,7 +21,7 @@ Published Works
         <!-- EDUCATION -->
         <h3 class="text-center">Education</h3>
         <p>
-            <span><strong>Valdosta State University, GPA 3.75</strong></span><span class="float-right"><strong>Valdosta, GA</strong></span>
+            <span><strong>Valdosta State University<!--, GPA 3.75--></strong></span><span class="float-right"><strong>Valdosta, GA</strong></span>
             <br />
             <span><em>B.S. Computer Science, Math Minor</em></span><span class="float-right"><em>May 2026</em></span>
         </p>
@@ -29,7 +29,7 @@ Published Works
         <!--     <li>Dean's List (Fall 2022 - Fall 2023)</li> -->
         <!-- </ul> -->
         <p>
-            <span><strong>Bainbridge High School, GPA 3.89</strong></span><span class="float-right"><strong>Bainbridge, GA</strong></span>
+            <span><strong>Bainbridge High School<!--, GPA 3.89--></strong></span><span class="float-right"><strong>Bainbridge, GA</strong></span>
             <br />
             <span><em>High School Diploma</em></span><span class="float-right"><em>May 2022</em></span>
         </p>
@@ -96,9 +96,9 @@ Published Works
         <!-- ACTIVITIES -->
         <h3 class="text-center">Activities</h3>
         <p>
-            <span>ACM (Association of Computing Machinery) - Member</span><span class="float-right">Current</span>
+            <span>ACM <!-- (Association of Computing Machinery) --> - Member</span><span class="float-right">Current</span>
             <br />
-            <span>ACM (Association of Computing Machinery) - Treasurer</span><span class="float-right">2023 - 2023&#8224;</span>
+            <span>ACM <!-- (Association of Computing Machinery) --> - Treasurer</span><span class="float-right">2023 - 2023&#8224;</span>
             <br />
             <span>Housing Move In Volunteer</span><span class="float-right">Fall 2023</span>
         </p>
