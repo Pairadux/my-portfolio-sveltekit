@@ -17,7 +17,7 @@ Published Works
 -->
 
 <section class="my-8 flex flex-col items-center">
-    <article class="container prose prose-lg prose-neutral px-4 md:prose-xl">
+    <article class="container prose prose-base sm:prose-lg prose-neutral px-4 md:prose-xl">
         <!-- EDUCATION -->
         <h3 class="text-center">Education</h3>
         <p>
