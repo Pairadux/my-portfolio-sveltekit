@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { socialMediaSvgs } from "$lib/data";
+    import { socialMedias } from "$lib/data/sociallinks";
 
     const date = new Date();
 
@@ -10,7 +10,7 @@
 <footer class="box-content flex justify-center bg-white py-6 shadow-inner">
     <div class="container flex flex-col items-center justify-center gap-4">
         <ul class="flex flex-row gap-4">
-            {#each socialMediaSvgs as item}
+            {#each socialMedias as item}
                 <li class="group flex h-12 w-12 items-center justify-center rounded-full ring-2 ring-neutral-950 hover:bg-neutral-950">
                     <a href={item.link}>
                         <svg

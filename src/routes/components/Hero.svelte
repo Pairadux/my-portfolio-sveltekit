@@ -1,6 +1,6 @@
 <script lang="ts">
     import { assets } from "$app/paths";
-    import { skills } from "$lib/data";
+    import { skills } from "$lib/data/skills";
 </script>
 
 <!-- INTRODUCTION SECTION -->

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { portfolioItems } from "$lib/data";
+    import { portfolioItems } from "$lib/data/portfolioitems";
     import ProjectItem from "$lib/general/ProjectItem.svelte";
     import SectionHeader from "$lib/general/SectionHeader.svelte";
 </script>

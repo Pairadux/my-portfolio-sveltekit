@@ -1,7 +1,7 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import { assets } from "$app/paths";
-    import { portfolioItems } from "$lib/data";
+    import { portfolioItems } from "$lib/data/portfolioitems";
 
     let firstItem: Element;
 
