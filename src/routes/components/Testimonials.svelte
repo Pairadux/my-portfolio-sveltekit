@@ -1,12 +1,9 @@
+<script lang="ts">
+    import SectionHeader from "$lib/general/SectionHeader.svelte";
+</script>
 
-  <section class="my-16 flex w-3/4 flex-col items-center gap-12 lg:w-full">
+<section class="my-16 flex w-3/4 flex-col items-center gap-12 lg:w-full">
     <div>
-      <h1 class="text-center mb-2 text-2xl md:text-3xl font-semibold tracking-tight">
-        Testimonials
-      </h1>
-      <p class="text-center text-lg md:text-xl">
-        What some of the people I've worked with in the past have to say about
-        me.
-      </p>
+        <SectionHeader title="Testimonials">What some of the people I've worked with in the past to say about me.</SectionHeader>
     </div>
-  </section>
+</section>
