@@ -1,4 +1,12 @@
 <script lang="ts">
+    import { onMount } from "svelte";
+    import anime from "animejs/lib/anime";
+
+    onMount(() => {
+        anime({
+            targets: "div",
+        });
+    });
 </script>
 
 <svg
