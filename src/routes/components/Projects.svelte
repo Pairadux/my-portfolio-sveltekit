@@ -6,13 +6,10 @@
 
 <!-- PORTFOLIO SECTION -->
 <section class="my-16 flex w-3/4 flex-col items-center gap-12 lg:w-full">
-
     <!-- TITLE -->
     <SectionHeader title="Recent Projects">
-        A few of my most recent projects. Want to see more? Head over to my <a
-            class="text-blue-500"
-            href="/portfolio">portfolio page</a
-        >.
+        A few of my most recent projects. Want to see more? Head over to my
+        <span ><a class="text-blue-500" href="/portfolio">portfolio page</a></span>.
     </SectionHeader>
 
     <!-- PORTFOLIO ITEMS CONTAINER -->
