@@ -17,29 +17,24 @@ Published Works
 -->
 
 <section class="my-8 flex flex-col items-center">
-    <article class="container prose prose-base sm:prose-lg prose-neutral px-4 md:prose-xl">
+    <article class="container prose prose-base prose-neutral px-4 sm:prose-lg md:prose-xl">
+
+<!-- SUMMARY -->
+        <h3 class="text-center">Summary</h3>
+        <p>A sophmore Computer Science student with a passion for web design and CLI applications. Experienced in designing and developing responsive websites with HTML, CSS, and JS along with a host of amazing frameworks and tools like Svelte and Tailwind. Demonstrated ability to work collaboratively on digital media projects and managing complex tasks and procedures effectively. Eager to apply my technical knowledge and problem-solving abilities in a challenging and fast-paced work environment that encourages innovation and professional growth.</p>
+
         <!-- EDUCATION -->
         <h3 class="text-center">Education</h3>
         <p>
-            <span><strong>Valdosta State University<!--, GPA 3.75--></strong></span><span class="float-right"><strong>Valdosta, GA</strong></span>
+            <span><strong>Valdosta State University, GPA 3.75</strong></span><span class="float-right"><strong>Valdosta, GA</strong></span>
             <br />
             <span><em>B.S. Computer Science, Math Minor</em></span><span class="float-right"><em>May 2026</em></span>
         </p>
-        <!-- <ul> -->
-        <!--     <li>Dean's List (Fall 2022 - Fall 2023)</li> -->
-        <!-- </ul> -->
         <p>
-            <span><strong>Bainbridge High School<!--, GPA 3.89--></strong></span><span class="float-right"><strong>Bainbridge, GA</strong></span>
+            <span><strong>Bainbridge High School, GPA 3.89</strong></span><span class="float-right"><strong>Bainbridge, GA</strong></span>
             <br />
             <span><em>High School Diploma</em></span><span class="float-right"><em>May 2022</em></span>
         </p>
-        <!-- <ul> -->
-        <!--     <li>Zell Miller Recipient</li> -->
-        <!--     <li>Principle's Award</li> -->
-        <!--     <li>National Honor Society Member</li> -->
-        <!--     <li>Honor & AP Course Load</li> -->
-        <!--     <li>1250 Cumulative SAT Score</li> -->
-        <!-- </ul> -->
 
         <!-- EXPERIENCE -->
         <h3 class="text-center">Experience</h3>
@@ -79,15 +74,19 @@ Published Works
         </p>
         <ul>
             <li>Utilized Point of Sale (POS) Systems to facilitate transactions via cash, check, and credit/debit.</li>
-            <li>Assisted in the development and execution of strategies to garner leads, promote key products, display on-sale items, and market seasonal merchandise.</li>
-            <li>Attained multiple lift-equipment licenses to better assist co-workers and provide a smoother experience for customers purchasing heavy or bulk merchandise.</li>
+            <li>Assisted in the development and execution of strategies to garner leads, promote key products, display on-sale items, and showcase seasonal merchandise.</li>
+            <li>Attained multiple lift-equipment licenses to improve team support and provide a seamless experience for customers purchasing heavy or large items.</li>
         </ul>
         <p>
             <span><strong>Johnny Gause Flooring</strong></span><span><strong class="float-right">Bainbridge, GA</strong></span>
             <br />
             <span><em>LVP Installer</em></span><span class="float-right"><em>Sep 2019 - Oct 2021</em></span>
         </p>
-        <ul></ul>
+        <ul>
+            <li>Primarily responsible for the installation of Luxury Vinyl Plank flooring and Carpet.</li>
+            <li>Ensured the safe and organized delivery of materials, collaborating closely with job-site managers to ensure complete compliance with set policies.</li>
+            <li>Managed job-site readiness and work area preparation for various operations.</li>
+        </ul>
 
         <!-- SKILLS -->
         <h3 class="text-center">Skills</h3>
@@ -113,9 +112,15 @@ Published Works
             <span>MS Office</span><span class="float-right">Certiport 2020</span>
             <br />
             <span>Dean's List</span><span class="float-right">Fall 2022 - Fall 2023</span>
+            <br />
+            <span>Zell Miller Recipient</span><span class="float-right">May 2022</span>
+            <br />
+            <span>Principle's Award</span><span class="float-right">May 2022</span>
+            <br />
+            <span>1250 Cumulative SAT Score</span><span class="float-right">2021</span>
         </p>
 
-        <!-- FOOTNOTE -->
+        <!-- FOOTNOTES -->
         <hr />
         <p class="text-sm">&#8224;Had to step down from my position early due to multiple time-constraints I was experiencing at the time.</p>
     </article>
