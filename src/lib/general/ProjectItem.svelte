@@ -14,12 +14,12 @@
         alt="" />
 
     <!-- PORTFOLIO TITLE -->
-    <h1 class="absolute left-1/2 top-1/2 w-72 -translate-x-1/2 -translate-y-1/2 text-center text-2xl font-semibold tracking-tight text-white transition-opacity duration-300 group-hover:opacity-0 md:text-3xl">
+    <h1 class="absolute left-1/2 top-1/2 w-3/4 -translate-x-1/2 -translate-y-1/2 text-center text-2xl font-semibold tracking-tight text-white transition-opacity duration-300 group-hover:opacity-0 md:text-3xl">
         {title}
     </h1>
 
     <!-- PORTFOLIO HOVER ITEMS -->
-    <div class="absolute left-1/2 top-1/2 flex h-64 w-64 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 opacity-0 transition-opacity duration-700 group-hover:opacity-100">
+    <div class="absolute left-1/2 top-1/2 flex h-full w-3/4 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 opacity-0 transition-opacity duration-700 group-hover:opacity-100">
         <h1 class="text-center text-2xl font-semibold tracking-tight text-white transition md:text-3xl">
             {title}
         </h1>

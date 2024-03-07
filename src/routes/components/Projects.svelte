@@ -12,6 +12,8 @@
         <span ><a class="text-blue-500" href="/portfolio">portfolio page</a></span>.
     </SectionHeader>
 
+        <p class="text-sm -mt-12">* = unfinished projects</p>
+
     <!-- PORTFOLIO ITEMS CONTAINER -->
     <div class="flex flex-col gap-8 lg:grid lg:grid-cols-3">
         {#each portfolioItems as portfolioItem}
