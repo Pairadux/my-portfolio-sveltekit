@@ -1,4 +1,5 @@
 <script lang="ts">
+    import { assets } from "$app/paths";
     import { portfolioItems } from "$lib/data/portfolioitems";
     import ProjectItem from "$lib/general/ProjectItem.svelte";
     import SectionHeader from "$lib/general/SectionHeader.svelte";
@@ -6,6 +7,7 @@
 
 <!-- PORTFOLIO SECTION -->
 <section class="my-16 flex w-3/4 flex-col items-center gap-12 lg:w-full">
+
     <!-- TITLE -->
     <SectionHeader title="Projects">A few of my most recent projects. Want to see more? Head over to my</SectionHeader>
 
