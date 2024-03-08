@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { portfolioItems } from "$lib/data/portfolioitems";
+    import { projects } from "$lib/data/projects";
     import ProjectItem from "$lib/general/ProjectItem.svelte";
     import SectionHeader from "$lib/general/SectionHeader.svelte";
 </script>
@@ -12,7 +12,7 @@
         <span
             ><a
                 class="text-blue-500"
-                href="/portfolio">portfolio page</a
+                href="/projects">projects page</a
             ></span
         >.
     </SectionHeader>
@@ -21,11 +21,11 @@
 
     <!-- PORTFOLIO ITEMS CONTAINER -->
     <div class="flex flex-col gap-8 lg:grid lg:grid-cols-3">
-        {#each portfolioItems as portfolioItem}
+        {#each projects as project}
             <ProjectItem
-                title={portfolioItem.title}
-                description={portfolioItem.description}
-                image={portfolioItem.image} />
+                title={project.title}
+                description={project.description}
+                image={project.image} />
         {/each}
     </div>
 </section>

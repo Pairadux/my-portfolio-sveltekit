@@ -1,10 +1,10 @@
-export interface portfolioItem {
+export interface projectItem {
     image: string;
     title: string;
     description: string;
 }
 
-export const portfolioItems: portfolioItem[] = [
+export const projects: projectItem[] = [
     {
         image: "dirty-beach.jpg",
         title: "Dirty Beach Cleans",
