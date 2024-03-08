@@ -5,8 +5,7 @@
 </script>
 
 <!-- PORTFOLIO SECTION -->
-<section class="my-16 flex w-3/4 flex-col items-center gap-12 lg:w-full">
-
+<section class="flex w-3/4 flex-col items-center gap-12 py-16 lg:w-full">
     <!-- TITLE -->
     <SectionHeader title="Projects">A comprehensive list of all of my projects.</SectionHeader>
 

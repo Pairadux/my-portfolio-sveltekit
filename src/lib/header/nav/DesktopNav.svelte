@@ -3,7 +3,7 @@
 </script>
 
 <!-- Navigation Items -->
-<ul class="hidden container flex-col items-center md:flex md:flex-row md:justify-around">
+<ul class="hidden container items-center justify-around md:flex flex-row">
   <NavItem
     classes=""
     href="/"

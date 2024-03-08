@@ -3,6 +3,6 @@
 </script>
 
 <img
-    class="h-64 w-64 rounded-full object-cover object-top"
+    class="h-64 w-64 relative z-10 rounded-full object-cover object-top"
     src="{assets}/images/headshot/senior-photo-headshot-removebg.png"
     alt="" />

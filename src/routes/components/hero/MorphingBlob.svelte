@@ -8,25 +8,19 @@
     onMount(() => {
         anime({
             targets: "#blob",
-            d: [
-                { value: blobTwoPath },
-                { value: blobOnePath },
-            ],
-            fill: [
-                { value: "#0a0a0a" },
-                { value: "#0a0a0a" }
-            ],
+            d: [{ value: blobTwoPath }, { value: blobOnePath }],
+            fill: [{ value: "#0a0a0a" }, { value: "#0a0a0a" }],
             rotate: 180,
-            easing: 'linear',
+            easing: "linear",
             duration: 10000,
-            direction: 'alternate',
-            loop: true
+            direction: "alternate",
+            loop: true,
         });
     });
 </script>
 
 <svg
-    class="absolute left-1/2 top-1/2 -z-10 -translate-x-1/2 -translate-y-1/2 scale-90 transform"
+    class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-90 transform"
     viewBox="0 0 700 700"
     width="425"
     height="425"
