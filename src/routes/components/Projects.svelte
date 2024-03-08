@@ -9,10 +9,15 @@
     <!-- TITLE -->
     <SectionHeader title="Recent Projects">
         A few of my most recent projects. Want to see more? Head over to my
-        <span ><a class="text-blue-500" href="/portfolio">portfolio page</a></span>.
+        <span
+            ><a
+                class="text-blue-500"
+                href="/portfolio">portfolio page</a
+            ></span
+        >.
     </SectionHeader>
 
-        <p class="text-sm -mt-12">* = unfinished projects</p>
+    <p class="-mt-12 text-sm">* = unfinished projects</p>
 
     <!-- PORTFOLIO ITEMS CONTAINER -->
     <div class="flex flex-col gap-8 lg:grid lg:grid-cols-3">

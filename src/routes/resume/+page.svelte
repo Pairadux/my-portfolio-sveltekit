@@ -16,7 +16,7 @@ Published Works
 
 -->
 
-<section class="my-8 flex flex-col items-center">
+<section class="my-16 flex flex-col items-center">
     <article class="container prose prose-base prose-neutral px-4 sm:prose-lg md:prose-xl">
 
 <!-- SUMMARY -->

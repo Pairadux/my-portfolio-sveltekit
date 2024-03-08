@@ -11,15 +11,15 @@
   <div class="container flex flex-col items-center">
     <Hero />
 
-    <hr class="my-8 h-px w-3/4 border-0 bg-black" />
+    <hr class="my-8 h-px border-[1.5px] w-3/4 border-black border-dashed" />
 
     <Greeting />
 
-    <hr class="my-8 h-px w-3/4 border-0 bg-black" />
+    <hr class="my-8 h-px border-[1.5px] w-3/4 border-black border-dashed" />
 
     <Projects />
 
-    <hr class="my-8 h-px w-3/4 border-0 bg-black" />
+    <hr class="my-8 h-px border-[1.5px] w-3/4 border-black border-dashed" />
 
     <Testimonials />
   </div>
