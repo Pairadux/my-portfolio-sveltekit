@@ -14,8 +14,8 @@
     label="Resume" />
   <NavItem
     classes=""
-    href="/portfolio"
-    label="Portfolio" />
+    href="/projects"
+    label="Projects" />
   <NavItem
     classes=""
     href="/about"

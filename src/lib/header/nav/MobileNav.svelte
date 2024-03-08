@@ -33,8 +33,8 @@
             on:click={toggleMobileNav}>
             <NavItem
                 classes="text-3xl"
-                href="/portfolio"
-                label="Portfolio" />
+                href="/projects"
+                label="Projects" />
         </button>
         <button
             type="button"

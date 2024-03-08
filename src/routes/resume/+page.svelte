@@ -1,25 +1,10 @@
-<!-- 
+<script lang="ts">
+    import ProseArticle from "$lib/general/ProseArticle.svelte";
+</script>
 
-Everything Newest to Oldest
-
-Summary (possibly going to omit)
-
-Professional History
-
-Education
-
-Skills
-
-Awards and Achievements
-
-Published Works
-
--->
-
-<section class="my-16 flex flex-col items-center">
-    <article class="container prose prose-base prose-neutral px-4 sm:prose-lg md:prose-xl">
-
-<!-- SUMMARY -->
+<section class="my-16 flex">
+    <ProseArticle>
+        <!-- SUMMARY -->
         <h3 class="text-center">Summary</h3>
         <p>A sophmore Computer Science student with a passion for web design and CLI applications. Experienced in designing and developing responsive websites with HTML, CSS, and JS along with a host of amazing frameworks and tools like Svelte and Tailwind. Demonstrated ability to work collaboratively on digital media projects and managing complex tasks and procedures effectively. Eager to apply my technical knowledge and problem-solving abilities in a challenging and fast-paced work environment that encourages innovation and professional growth.</p>
 
@@ -123,5 +108,5 @@ Published Works
         <!-- FOOTNOTES -->
         <hr />
         <p class="text-sm">&#8224;Had to step down from my position early due to multiple time-constraints I was experiencing at the time.</p>
-    </article>
+    </ProseArticle>
 </section>

@@ -5,11 +5,11 @@
     export let image: string;
 </script>
 
-<div class="relative h-48 w-48 group transition-transform hover:transform hover:-translate-x-1 hover:-translate-y-1 lg:h-72 lg:w-72">
+<div class="relative h-72 w-72 group transition-transform hover:transform hover:-translate-x-1 hover:-translate-y-1">
     <div class="absolute group-hover:left-4 group-hover:top-4 transition-all left-2 top-2 h-[95%] w-[95%] outline-dashed outline-offset-2 outline-blue-300"></div>
 
     <!-- PORTFOLIO ITEMS -->
-    <div class="relative flex h-48 w-48 justify-center border-[1.5px] border-black bg-white shadow-md lg:h-72 lg:w-72">
+    <div class="relative flex h-full w-full justify-center border-[1.5px] border-black bg-white shadow-md">
 
         <!-- PORTFOLIO HOVER ITEMS -->
         <div class="absolute left-1/2 top-1/2 flex h-full w-full bg-blue-300 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 px-4">
