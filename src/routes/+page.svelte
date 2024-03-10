@@ -3,7 +3,7 @@
     // import Greeting from "./components/Greeting.svelte";
     import SkillsContainer from "./components/hero/SkillsContainer.svelte";
     import Projects from "./components/Projects.svelte";
-    import Testimonials from "./components/Testimonials.svelte";
+    // import Testimonials from "./components/Testimonials.svelte";
 </script>
 
 <!-- MAIN CONTAINER -->
