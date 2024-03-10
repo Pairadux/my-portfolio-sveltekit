@@ -7,8 +7,8 @@
 </script>
 
 <!-- MAIN CONTAINER -->
-<div class="flex w-full justify-center">
-    <div class="container flex flex-col items-center">
+<div class="w-full">
+    <div class="container m-auto flex flex-col items-center">
         <Hero />
 
         <hr class="my-8 h-px w-3/4 border-[1.5px] border-dashed border-black" />
@@ -24,4 +24,9 @@
         <!---->
         <!-- <Testimonials /> -->
     </div>
+
+    <!-- ADD CALL TO ACTION -->
+    <section class="w-full bg-blue-500 py-8">
+        <p class="text-center text-3xl font-bold text-white">CALL TO ACTION</p>
+    </section>
 </div>

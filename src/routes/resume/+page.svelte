@@ -76,7 +76,7 @@
         <!-- SKILLS -->
         <h3 class="text-center">Skills</h3>
         <p>
-            <strong>Web Development Technologies:</strong> <span>HTML, CSS, JS, Tailwindcss, Svelte, Bootstrap, Bulma, NodeJS</span>
+            <strong>Web Development Technologies:</strong> <span>HTML, CSS, JS, Tailwindcss, Svelte, Bulma</span>
             <br />
             <strong>Computer Systems:</strong> <span>Windows, Linux, MacOS</span>
             <br />
