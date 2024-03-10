@@ -5,7 +5,7 @@
 </script>
 
 <!-- PORTFOLIO SECTION -->
-<section class="my-16 flex w-3/4 flex-col items-center lg:w-full">
+<section class="my-16 flex flex-col items-center lg:w-full">
 
     <!-- TITLE -->
     <SectionHeader >

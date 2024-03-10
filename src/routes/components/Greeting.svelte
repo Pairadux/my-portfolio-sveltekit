@@ -2,7 +2,7 @@
     import SectionHeader from "$lib/general/SectionHeader.svelte";
 </script>
 
-<section class="w-1/2">
+<div class="md:w-2/5">
     <SectionHeader>
         <svelte:fragment slot="header">Hi, I'm <span class="text-blue-500">Austin</span> &#128075</svelte:fragment>
 
@@ -16,4 +16,4 @@
             >.
         </svelte:fragment>
     </SectionHeader>
-</section>
+</div>
