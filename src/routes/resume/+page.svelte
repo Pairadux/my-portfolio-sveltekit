@@ -11,12 +11,12 @@
         <!-- EDUCATION -->
         <h3 class="text-center">Education</h3>
         <p>
-            <span><strong>Valdosta State University, GPA 3.75</strong></span><span class="float-right"><strong>Valdosta, GA</strong></span>
+            <span><strong>Valdosta State University<span class="hidden sm:inline">, GPA 3.75</span></strong></span><span class="float-right"><strong>Valdosta, GA</strong></span>
             <br />
             <span><em>B.S. Computer Science, Math Minor</em></span><span class="float-right"><em>May 2026</em></span>
         </p>
         <p>
-            <span><strong>Bainbridge High School, GPA 3.89</strong></span><span class="float-right"><strong>Bainbridge, GA</strong></span>
+            <span><strong>Bainbridge High School<span class="hidden sm:inline">, GPA 3.89</span></strong></span><span class="float-right"><strong>Bainbridge, GA</strong></span>
             <br />
             <span><em>High School Diploma</em></span><span class="float-right"><em>May 2022</em></span>
         </p>
