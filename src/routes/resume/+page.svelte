@@ -75,7 +75,17 @@
 
         <!-- SKILLS -->
         <h3 class="text-center">Skills</h3>
-        <p>Web Development Technologies (HTML, CSS, JS, Tailwindcss, Svelte, Bootstrap, Bulma, NodeJS), Computer Systems (Windows, Linux, MacOS), Command Line Operation, Java, Python, Rust, Adobe Products, Microsoft Office, Visual Studio Code, Neovim, JetBrains, Data Management, API Querying</p>
+        <p>
+            <strong>Web Development Technologies:</strong> <span>HTML, CSS, JS, Tailwindcss, Svelte, Bootstrap, Bulma, NodeJS</span>
+            <br />
+            <strong>Computer Systems:</strong> <span>Windows, Linux, MacOS</span>
+            <br />
+            <strong>Languages:</strong> <span>Java, Python, Rust</span>
+            <br />
+            <strong>Applications:</strong> <span>Adobe Products, Microsoft Office, Visual Studio Code, Neovim, JetBrains</span>
+            <br />
+            <strong>Misc:</strong> <span>Command Line Operation, Data Management, API Querying</span>
+        </p>
 
         <!-- ACTIVITIES -->
         <h3 class="text-center">Activities</h3>
