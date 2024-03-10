@@ -1,6 +1,7 @@
 <script lang="ts">
     import Hero from "./components/hero/Hero.svelte";
-    import Greeting from "./components/Greeting.svelte";
+    // import Greeting from "./components/Greeting.svelte";
+    import SkillsContainer from "./components/hero/SkillsContainer.svelte";
     import Projects from "./components/Projects.svelte";
     import Testimonials from "./components/Testimonials.svelte";
 </script>
@@ -12,7 +13,8 @@
 
         <hr class="my-8 h-px w-3/4 border-[1.5px] border-dashed border-black" />
 
-        <Greeting />
+        <!-- <Greeting /> -->
+        <SkillsContainer />
 
         <hr class="my-8 h-px w-3/4 border-[1.5px] border-dashed border-black" />
 

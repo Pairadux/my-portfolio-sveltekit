@@ -6,10 +6,12 @@
 </script>
 
 <DevelopmentPopup />
-<div class="bg-blue-500 p-6">
-    <div class="box-border min-h-screen bg-white">
-        <Header />
-        <slot />
+<div class="bg-blue-500 p-3 md:p-6">
+    <div class="bg-white">
+        <div class="box-border min-h-screen">
+            <Header />
+            <slot />
+        </div>
+        <Footer />
     </div>
-    <Footer />
 </div>

@@ -13,3 +13,9 @@ h6,
 li {
     color: #171717;
 }
+
+.salsa {
+    font-family: "Salsa", cursive !important;
+    font-weight: 400 !important; 
+    font-style: normal !important;
+}

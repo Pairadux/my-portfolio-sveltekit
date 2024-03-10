@@ -1,5 +1,6 @@
 <script lang="ts">
     import { socialMedias } from "$lib/data/sociallinks";
+    import SocialIcon from "./SocialIcon.svelte";
 
     const date = new Date();
 
@@ -11,18 +12,7 @@
     <div class="container flex flex-col items-center justify-center gap-4">
         <ul class="flex flex-row gap-4">
             {#each socialMedias as item}
-                <li class="group flex h-12 w-12 items-center justify-center rounded-full ring-2 ring-neutral-950 hover:bg-neutral-950">
-                    <a href={item.link}>
-                        <svg
-                            class="h-8 w-8"
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox={item.viewbox}>
-                            <path
-                                class="group-hover:fill-neutral-50"
-                                d={item.path} />
-                        </svg>
-                    </a>
-                </li>
+                <SocialIcon item={ item } />
             {/each}
         </ul>
 

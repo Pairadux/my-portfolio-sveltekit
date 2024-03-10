@@ -5,22 +5,26 @@
 </script>
 
 <!-- PORTFOLIO SECTION -->
-<section class="my-16 flex w-3/4 flex-col items-center gap-12 lg:w-full">
-    <!-- TITLE -->
-    <SectionHeader title="Recent Projects">
-        A few of my most recent projects. Want to see more? Head over to my
-        <span
-            ><a
-                class="text-blue-500"
-                href="/projects">projects page</a
-            ></span
-        >.
-    </SectionHeader>
+<section class="my-16 flex w-3/4 flex-col items-center lg:w-full">
 
-    <p class="-mt-12 text-sm">* = unfinished projects</p>
+    <!-- TITLE -->
+    <SectionHeader >
+        <svelte:fragment slot="header">Recent Projects</svelte:fragment>
+        <svelte:fragment slot="subheader">
+            A few of my most recent projects. Want to see more? Head over to my
+            <span
+            ><a
+                    class="text-blue-500"
+                    href="/projects">projects page</a
+                ></span
+            >.
+        </svelte:fragment>
+    </SectionHeader>
+ 
+    <p class="text-sm">* = unfinished projects</p>
 
     <!-- PORTFOLIO ITEMS CONTAINER -->
-    <div class="flex flex-col gap-8 lg:grid lg:grid-cols-3">
+    <div class="flex mt-8 flex-col gap-8 lg:grid lg:grid-cols-3">
         {#each projects as project}
             <ProjectItem
                 title={project.title}

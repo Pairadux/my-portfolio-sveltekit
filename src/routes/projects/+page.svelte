@@ -5,14 +5,18 @@
 </script>
 
 <!-- PORTFOLIO SECTION -->
-<section class="flex w-3/4 flex-col items-center gap-12 py-16 lg:w-full">
-    <!-- TITLE -->
-    <SectionHeader title="Projects">A comprehensive list of all of my projects.</SectionHeader>
+<section class="flex w-3/4 flex-col items-center py-16 lg:w-full">
 
-    <p class="-mt-12 text-sm">* = unfinished projects</p>
+    <!-- TITLE -->
+    <SectionHeader>
+        <svelte:fragment slot="header">Projects</svelte:fragment>
+        <svelte:fragment slot="subheader">A comprehensive list of all of my projects.</svelte:fragment>
+    </SectionHeader>
+
+    <p class="text-sm">* = unfinished projects</p>
 
     <!-- PORTFOLIO ITEMS CONTAINER -->
-    <div class="flex flex-col gap-8 lg:grid lg:grid-cols-3">
+    <div class="flex flex-col gap-8 mt-8 lg:grid lg:grid-cols-3">
         {#each projects as project}
             <ProjectItem
                 title={project.title}
