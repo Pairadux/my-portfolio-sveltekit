@@ -2,7 +2,7 @@
     import ProseArticle from "$lib/general/ProseArticle.svelte";
 </script>
 
-<section class="my-16 flex">
+<section class="flex mb-16">
     <ProseArticle>
         <!-- SUMMARY -->
         <h3 class="text-center">Summary</h3>

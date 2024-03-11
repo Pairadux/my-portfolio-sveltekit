@@ -5,7 +5,7 @@
 </script>
 
 <!-- PORTFOLIO SECTION -->
-<section class="flex flex-col m-auto items-center py-16">
+<section class="flex flex-col m-auto items-center">
 
     <!-- TITLE -->
     <SectionHeader>

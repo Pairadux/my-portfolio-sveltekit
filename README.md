@@ -1,10 +1,11 @@
 # My Personal Portfolio Site
 
 ## Made with:
-- Love
+- ~Love~ Crayons
 - Svelte
 - SvelteKit
 - Tailwind
 - Anime.js
 - Prettier
 - Typescript
+- Haikei

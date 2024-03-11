@@ -5,7 +5,7 @@
 </script>
 
 <!-- SKILLS CONTAINER -->
-<div class="relative my-16 md:block">
+<div class="relative md:block">
     <SectionHeader>
         <svelte:fragment slot="header">Notable Skills</svelte:fragment>
     </SectionHeader>

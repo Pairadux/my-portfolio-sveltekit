@@ -4,7 +4,7 @@
     export let item: SocialMediaInfo;
 </script>
 
-<li class="group flex h-12 w-12 items-center justify-center  ring-2 ring-blue-500 hover:bg-blue-500">
+<li class="group flex h-12 w-12 items-center justify-center ring-2 ring-blue-500 hover:bg-blue-500">
     <a href={item.link}>
         <svg
             class="h-8 w-8"
