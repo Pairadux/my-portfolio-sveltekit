@@ -24,7 +24,7 @@
 
         <!-- PORTFOLIO IMAGE -->
         <img
-            class="object-cover brightness-75 transition-opacity group-hover:opacity-0"
+            class="object-cover brightness-50 transition-opacity group-hover:opacity-0"
             src="{assets}/images/portfolio/{image}"
             alt="" />
 

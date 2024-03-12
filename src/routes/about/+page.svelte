@@ -1,20 +1,22 @@
 <script lang="ts">
+    import { assets } from "$app/paths";
     import ProseArticle from "$lib/general/ProseArticle.svelte";
 </script>
 
 <section class="mb-16">
-    <!-- Descide on whether to use bg-blue-500 for this -->
-    <div class="my-16 w-full bg-blue-500 py-16"><h2 class="m-auto w-3/5 text-center text-4xl font-bold text-white">A Sophomore Computer Science Student Bridging Code and Creativity</h2></div>
     <ProseArticle>
         <h3>The Amazing World of <strike>Gumball</strike> Austin</h3>
+        <p>Greetings, earthlings! I'm Austin, a sophomore Computer Science major with a minor in Math at Valdosta State University. By day, I'm a freelance web developer and full-time student with an interest in CLI applications and foreign languages. By night, I still have the same responsibilities, just with a little bit of exhaustion mixed in.</p>
+        <p>However, my journey into this realm didn't start with web development. My initial foray into technology started when I was</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quia recusandae pariatur veniam eius dolore quaerat iure, magni cupiditate laboriosam eos velit itaque voluptatum sunt impedit eaque consequuntur ipsam! Voluptas!</p>
-        <h3>Journey</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quia recusandae pariatur veniam eius dolore quaerat iure, magni cupiditate laboriosam eos velit itaque voluptatum sunt impedit eaque consequuntur ipsam! Voluptas!</p>
-        <h3>Philosophy</h3>
+        <figure>
+            <img
+                src="{assets}/images/portfolio/example1.jpg"
+                alt="" />
+            <figcaption>Example1</figcaption>
+        </figure>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quia recusandae pariatur veniam eius dolore quaerat iure, magni cupiditate laboriosam eos velit itaque voluptatum sunt impedit eaque consequuntur ipsam! Voluptas!</p>
-        <h3>Achievements</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quia recusandae pariatur veniam eius dolore quaerat iure, magni cupiditate laboriosam eos velit itaque voluptatum sunt impedit eaque consequuntur ipsam! Voluptas!</p>
-        <h3>Call to Action</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quia recusandae pariatur veniam eius dolore quaerat iure, magni cupiditate laboriosam eos velit itaque voluptatum sunt impedit eaque consequuntur ipsam! Voluptas!</p>
     </ProseArticle>
 </section>

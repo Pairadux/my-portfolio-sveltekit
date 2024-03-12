@@ -16,22 +16,22 @@ export const projects: projectItem[] = [
         description: "A website filled with furry friends to replace the client's outdated site.",
     },
     {
-        image: "example2.jpg",
+        image: "table-tennis-site.jpg",
         title: "Table Tennis Site",
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     },
     {
-        image: "example1.jpg",
+        image: "hospital-queue-app.jpg",
         title: "Hospital Queue App*",
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     },
     {
-        image: "example1.jpg",
+        image: "command-line-apps.jpg",
         title: "Rust CLI App*",
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     },
     {
-        image: "example2.jpg",
+        image: "cross-platform-app.jpg",
         title: "Cross-platform Flashcard App*",
         description: "Lorem ipsum dolor, sit amet consectetur adipisicing elit.",
     },
