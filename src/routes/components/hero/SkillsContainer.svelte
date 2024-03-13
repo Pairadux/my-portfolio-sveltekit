@@ -1,5 +1,6 @@
 <script lang="ts">
     import { skills } from "$lib/data/skills";
+    import Skill from "./Skill.svelte";
     import SectionHeader from "$lib/general/SectionHeader.svelte";
 </script>
 
@@ -15,7 +16,7 @@
     <!-- SKILLS -->
     <div class="mt-8 grid grid-cols-5 gap-4 md:flex">
         {#each skills as skill}
-            <!-- <Skill {skill} /> -->
+            <Skill {skill} />
         {/each}
     </div>
 </div>

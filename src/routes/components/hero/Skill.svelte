@@ -1,13 +1,11 @@
 <script lang="ts">
-    import { assets } from "$app/paths";
     import type { skill } from "$lib/data/skills";
-    import type { ComponentType } from "svelte";
-    export let skill: ComponentType;
+    export let skill: skill;
 </script>
 
 <div class="tooltip h-12 w-12 md:h-14 md:w-14">
 
-    <svelte:component this={skill} />
+    <svelte:component this={skill.component} />
 
     <span class="tooltiptext dark:bg-white dark:text-black after:border-t-white after:border-l-transparent after:border-b-transparent after:border-r-transparent bg-black text-white">{skill.name}</span>
 

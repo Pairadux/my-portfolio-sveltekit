@@ -11,12 +11,12 @@
         <!-- EDUCATION -->
         <h3 class="text-center dark:text-white">Education</h3>
         <p>
-            <span><strong>Valdosta State University<span class="hidden sm:inline">, GPA 3.75</span></strong></span><span class="float-right"><strong>Valdosta, GA</strong></span>
+            <span><strong class="dark:text-white">Valdosta State University<span class="hidden sm:inline">, GPA 3.75</span></strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
             <br />
             <span><em>B.S. Computer Science, Math Minor</em></span><span class="float-right"><em>May 2026</em></span>
         </p>
         <p>
-            <span><strong>Bainbridge High School<span class="hidden sm:inline">, GPA 3.89</span></strong></span><span class="float-right"><strong>Bainbridge, GA</strong></span>
+            <span><strong class="dark:text-white">Bainbridge High School<span class="hidden sm:inline">, GPA 3.89</span></strong></span><span class="float-right"><strong class="dark:text-white">Bainbridge, GA</strong></span>
             <br />
             <span><em>High School Diploma</em></span><span class="float-right"><em>May 2022</em></span>
         </p>
@@ -24,7 +24,7 @@
         <!-- EXPERIENCE -->
         <h3 class="text-center dark:text-white">Experience</h3>
         <p>
-            <span><strong>Self-Employed</strong></span><span><strong class="float-right">Valdosta, GA</strong></span>
+            <span><strong class="dark:text-white">Self-Employed</strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
             <br />
             <span><em>Freelance Web Developer</em></span><span class="float-right"><em>Current</em></span>
         </p>
@@ -33,7 +33,7 @@
             <li>Work directly with clients to ensure that projects are in-line with their vision, and that development is meeting their expectations both in terms of time and quality.</li>
         </ul>
         <p>
-            <span><strong>ProcessPlan</strong></span><span><strong class="float-right">Valdosta, GA</strong></span>
+            <span><strong class="dark:text-white">ProcessPlan</strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
             <br />
             <span><em>Robot Trainer</em></span><span class="float-right"><em>June 2023 - Nov 2023</em></span>
         </p>
@@ -42,7 +42,7 @@
             <li>Interacted with superiors frequently to ensure accurate utilization of proprietary software and completion of client requests.</li>
         </ul>
         <p>
-            <span><strong>New Media Center</strong></span><span><strong class="float-right">Valdosta, GA</strong></span>
+            <span><strong class="dark:text-white">New Media Center</strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
             <br />
             <span><em>Student Technician</em></span><span class="float-right"><em>Sep 2022 - Oct 2023</em></span>
         </p>
@@ -53,7 +53,7 @@
             <li>Assisted in the imaging and troubleshooting of various equipment, including cameras and laptops.</li>
         </ul>
         <p>
-            <span><strong>The Home Depot</strong></span><span><strong class="float-right">Bainbridge, GA</strong></span>
+            <span><strong class="dark:text-white">The Home Depot</strong></span><span class="float-right"><strong class="dark:text-white">Bainbridge, GA</strong></span>
             <br />
             <span><em>Customer Service - Flooring</em></span><span class="float-right"><em>Oct 2021 - Aug 2022</em></span>
         </p>
@@ -63,7 +63,7 @@
             <li>Attained multiple lift-equipment licenses to improve team support and provide a seamless experience for customers purchasing heavy or large items.</li>
         </ul>
         <p>
-            <span><strong>Johnny Gause Flooring</strong></span><span><strong class="float-right">Bainbridge, GA</strong></span>
+            <span><strong class="dark:text-white">Johnny Gause Flooring</strong></span><span class="float-right"><strong class="dark:text-white">Bainbridge, GA</strong></span>
             <br />
             <span><em>LVP Installer</em></span><span class="float-right"><em>Sep 2019 - Oct 2021</em></span>
         </p>

@@ -19,7 +19,7 @@
 </script>
 
 <svg
-    class="absolute fill-black dark:fill-rose-900 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-90 transform"
+    class="absolute fill-blue-500 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 scale-90 transform"
     viewBox="0 0 700 700"
     width="425"
     height="425"

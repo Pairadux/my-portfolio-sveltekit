@@ -6,7 +6,7 @@
 </script>
 
 <!-- INTRODUCTION SECTION -->
-<section class="flex min-h-max flex-col-reverse items-center justify-center gap-16 md:flex-row">
+<section class="flex flex-col-reverse items-center justify-center gap-16 md:flex-row">
 
     <!-- <SkillsContainer /> -->
     <Greeting />

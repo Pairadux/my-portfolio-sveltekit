@@ -10,7 +10,7 @@
     <div class="absolute group-hover:left-4 group-hover:top-4 transition-all left-2 top-2 h-[95%] w-[95%] outline-dashed outline-offset-2 outline-blue-500"></div>
 
     <!-- PORTFOLIO ITEMS -->
-    <div class="relative flex h-full w-full justify-center border-[1.5px] border-black bg-white shadow-md">
+    <div class="relative flex h-full w-full justify-center border-[1.5px] border-black dark:border-white bg-white shadow-md">
 
         <!-- PORTFOLIO HOVER ITEMS -->
         <div class="absolute left-1/2 top-1/2 flex h-full w-full bg-blue-500 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 px-4">

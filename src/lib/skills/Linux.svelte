@@ -1,5 +1,5 @@
 <svg
-    class="bg-black dark:bg-white"
+    class="fill-black dark:fill-white h-full w-full"
     role="img"
     viewBox="0 0 24 24"
     xmlns="http://www.w3.org/2000/svg"

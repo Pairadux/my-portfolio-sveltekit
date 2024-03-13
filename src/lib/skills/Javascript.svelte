@@ -1,5 +1,5 @@
 <svg
-    class="bg-black dark:bg-white"
+    class="fill-black dark:fill-white h-full w-full"
     height="512"
     viewBox="0 0 512 512"
     width="512"
