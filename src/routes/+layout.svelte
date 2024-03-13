@@ -7,7 +7,7 @@
 
 <DevelopmentPopup />
 <div class="bg-blue-500 p-3 md:p-6">
-    <div class="bg-white">
+    <div class="bg-white dark:bg-black">
         <div class="box-border min-h-screen">
             <Header />
             <slot />

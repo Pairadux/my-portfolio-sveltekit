@@ -1,15 +1,16 @@
 <script lang="ts">
     import { assets } from "$app/paths";
     import type { skill } from "$lib/data/skills";
-    export let skill: skill;
+    import type { ComponentType } from "svelte";
+    export let skill: ComponentType;
 </script>
 
 <div class="tooltip h-12 w-12 md:h-14 md:w-14">
-    <img
-        class="h-14 w-14"
-        src="{assets}/images/icons/skills/{skill.icon}"
-        alt="" />
-    <span class="tooltiptext">{skill.name}</span>
+
+    <svelte:component this={skill} />
+
+    <span class="tooltiptext dark:bg-white dark:text-black after:border-t-white after:border-l-transparent after:border-b-transparent after:border-r-transparent bg-black text-white">{skill.name}</span>
+
 </div>
 
 <style>
@@ -24,8 +25,6 @@
         bottom: 115%;
         left: 50%;
         margin-left: -60px;
-        background-color: black;
-        color: #fff;
         text-align: center;
         padding: 5px 0;
         border-radius: 6px;
@@ -45,6 +44,5 @@
         margin-left: -5px;
         border-width: 5px;
         border-style: solid;
-        border-color: black transparent transparent transparent;
     }
 </style>

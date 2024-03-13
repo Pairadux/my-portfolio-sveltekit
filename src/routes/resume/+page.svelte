@@ -5,11 +5,11 @@
 <section class="flex mb-16">
     <ProseArticle>
         <!-- SUMMARY -->
-        <h3 class="text-center">Summary</h3>
+        <h3 class="text-center dark:text-white">Summary</h3>
         <p>A sophmore Computer Science student with a passion for web design and CLI applications. Experienced in designing and developing responsive websites with HTML, CSS, and JS along with a host of amazing frameworks and tools like Svelte and Tailwind. Demonstrated ability to work collaboratively on digital media projects and managing complex tasks and procedures effectively. Eager to apply my technical knowledge and problem-solving abilities in a challenging and fast-paced work environment that encourages innovation and professional growth.</p>
 
         <!-- EDUCATION -->
-        <h3 class="text-center">Education</h3>
+        <h3 class="text-center dark:text-white">Education</h3>
         <p>
             <span><strong>Valdosta State University<span class="hidden sm:inline">, GPA 3.75</span></strong></span><span class="float-right"><strong>Valdosta, GA</strong></span>
             <br />
@@ -22,7 +22,7 @@
         </p>
 
         <!-- EXPERIENCE -->
-        <h3 class="text-center">Experience</h3>
+        <h3 class="text-center dark:text-white">Experience</h3>
         <p>
             <span><strong>Self-Employed</strong></span><span><strong class="float-right">Valdosta, GA</strong></span>
             <br />
@@ -74,21 +74,21 @@
         </ul>
 
         <!-- SKILLS -->
-        <h3 class="text-center">Skills</h3>
+        <h3 class="text-center dark:text-white">Skills</h3>
         <p>
-            <strong>Web Development Technologies:</strong> <span>HTML, CSS, JS, Tailwindcss, Svelte, Bulma</span>
+            <strong class="dark:text-white">Web Development Technologies:</strong> <span>HTML, CSS, JS, Tailwindcss, Svelte, Bulma</span>
             <br />
-            <strong>Computer Systems:</strong> <span>Windows, Linux, MacOS</span>
+            <strong class="dark:text-white">Computer Systems:</strong> <span>Windows, Linux, MacOS</span>
             <br />
-            <strong>Languages:</strong> <span>Java, Python, Rust</span>
+            <strong class="dark:text-white">Languages:</strong> <span>Java, Python, Rust</span>
             <br />
-            <strong>Applications:</strong> <span>Adobe Products, Microsoft Office, Visual Studio Code, Neovim, JetBrains</span>
+            <strong class="dark:text-white">Applications:</strong> <span>Adobe Products, Microsoft Office, Visual Studio Code, Neovim, JetBrains</span>
             <br />
-            <strong>Misc:</strong> <span>Command Line Operation, Data Management, API Querying</span>
+            <strong class="dark:text-white">Misc:</strong> <span>Command Line Operation, Data Management, API Querying</span>
         </p>
 
         <!-- ACTIVITIES -->
-        <h3 class="text-center">Activities</h3>
+        <h3 class="text-center dark:text-white">Activities</h3>
         <p>
             <span>ACM <!-- (Association of Computing Machinery) --> - Member</span><span class="float-right">Current</span>
             <br />
@@ -98,7 +98,7 @@
         </p>
 
         <!-- CERTIFICIATIONS & ACHIEVEMENTS -->
-        <h3 class="text-center">Certifications & Achievements</h3>
+        <h3 class="text-center dark:text-white">Certifications & Achievements</h3>
         <p>
             <span>Python</span><span class="float-right">Codecademy 2022</span>
             <br />

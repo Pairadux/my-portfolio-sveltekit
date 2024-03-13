@@ -13,7 +13,7 @@
         <svelte:fragment slot="subheader">A comprehensive list of all of my projects.</svelte:fragment>
     </SectionHeader>
 
-    <p class="text-sm">* = unfinished projects</p>
+    <p class="text-sm dark:text-white">* = unfinished projects</p>
 
     <!-- PORTFOLIO ITEMS CONTAINER -->
     <div class="flex flex-col gap-8 mt-8 lg:grid lg:grid-cols-3">

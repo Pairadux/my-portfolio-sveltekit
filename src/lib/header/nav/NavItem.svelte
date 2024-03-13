@@ -9,6 +9,6 @@
 
 <li>
   <a
-    class="text-xl font-normal decoration-2 hover:underline { classes } { isActive ? 'underline' : ''}"
+    class="text-xl dark:text-white font-normal decoration-2 hover:underline { classes } { isActive ? 'underline' : ''}"
     href="{ href }">{ label }</a>
 </li>

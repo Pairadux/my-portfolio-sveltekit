@@ -21,7 +21,7 @@
         </svelte:fragment>
     </SectionHeader>
  
-    <p class="text-sm">* = unfinished projects</p>
+    <p class="text-sm dark:text-white">* = unfinished projects</p>
 
     <!-- PORTFOLIO ITEMS CONTAINER -->
     <div class="flex mt-8 flex-col gap-8 lg:grid lg:grid-cols-3">
