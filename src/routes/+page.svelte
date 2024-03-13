@@ -12,16 +12,16 @@
     <div class="container m-auto flex flex-col items-center">
         <Hero />
 
-        <hr class="my-16 h-px w-3/4 border-[1.5px] border-dashed border-black" />
+        <hr class="my-16 h-px w-3/4 border-[1.5px] border-dashed border-black dark:border-white" />
 
         <!-- <Greeting /> -->
         <SkillsContainer />
 
-        <hr class="my-16 h-px w-3/4 border-[1.5px] border-dashed border-black" />
+        <hr class="my-16 h-px w-3/4 border-[1.5px] border-dashed border-black dark:border-white" />
 
         <Projects />
 
-        <!-- <hr class="my-8 h-px border-[1.5px] w-3/4 border-black border-dashed" /> -->
+        <!-- <hr class="my-8 h-px border-[1.5px] w-3/4 border-black border-dashed dark:border-white" /> -->
         <!---->
         <!-- <Testimonials /> -->
     </div>
