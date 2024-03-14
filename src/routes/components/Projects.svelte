@@ -26,10 +26,12 @@
     <!-- PORTFOLIO ITEMS CONTAINER -->
     <div class="flex mt-8 flex-col gap-8 lg:grid lg:grid-cols-3">
         {#each projects as project}
-            <ProjectItem
-                title={project.title}
-                description={project.description}
-                image={project.image} />
+            {#if project.featured}
+                <ProjectItem
+                    title={project.title}
+                    description={project.description}
+                    image={project.image} />
+            {/if}
         {/each}
     </div>
 </section>

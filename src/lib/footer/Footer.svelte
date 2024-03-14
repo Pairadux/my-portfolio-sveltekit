@@ -16,6 +16,6 @@
             {/each}
         </ul>
 
-        <h4 class="text-black">Made with <strike>love</strike> crayons &#169; {year}</h4>
+        <h4 class="text-black dark:text-white">Made with <strike class="decoration-red-500">love</strike> crayons &#169; {year}</h4>
     </div>
 </footer>

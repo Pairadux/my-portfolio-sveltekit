@@ -1,41 +1,41 @@
 <script lang="ts">
     import { onMount } from "svelte";
     import anime from "animejs/lib/anime";
-    import Headshot from "./Headshot.svelte";
     import { assets } from "$app/paths";
 
     const blobOnePath = "M259.6 -217.9C320 -131.2 341.3 -24.2 311.3 56.6C281.3 137.3 200 191.8 114.6 229.8C29.2 267.9 -60.2 289.3 -138.8 261.7C-217.4 234.1 -285.2 157.3 -303.1 71.3C-321 -14.7 -289.1 -109.9 -230.3 -196.2C-171.5 -282.6 -85.7 -360 6.9 -365.6C99.6 -371.1 199.1 -304.6 259.6 -217.9";
-    const blobTwoPath = "M246.2 -177.4C317.3 -107.2 371.9 -4.9 355.8 87.3C339.6 179.6 252.7 261.9 159.4 291.8C66.1 321.6 -33.6 299.1 -105.6 251.9C-177.7 204.7 -222.1 132.8 -243.1 52.3C-264 -28.2 -261.4 -117.3 -217 -181.4C-172.5 -245.6 -86.3 -284.8 0.7 -285.3C87.6 -285.8 175.1 -247.7 246.2 -177.4";
+    const blobTwoPath = "M199.3 -157C250.1 -95.3 277.4 -12.9 260 57.7C242.6 128.3 180.5 187.2 111.1 214.3C41.7 241.5 -35.1 237 -86.6 203.2C-138.1 169.5 -164.3 106.5 -183.5 37.5C-202.8 -31.5 -215.2 -106.5 -183.4 -163.9C-151.7 -221.3 -75.8 -261.1 -0.8 -260.5C74.3 -259.9 148.5 -218.8 199.3 -157";
+    const blobThreePath = "M169.6 -142.3C206.4 -89.2 213.3 -19.5 202.7 54C192.1 127.4 163.8 204.5 108.4 235C52.9 265.5 -29.7 249.4 -92.6 211.7C-155.5 174 -198.6 114.6 -205.4 55.4C-212.1 -3.8 -182.4 -62.8 -142.1 -116.7C-101.8 -170.5 -50.9 -219.3 7.8 -225.5C66.5 -231.7 132.9 -195.3 169.6 -142.3";
+    const blobFourPath = "M194.3 -140.1C244.1 -92.4 271.7 -12 258.2 63.7C244.7 139.4 190.2 210.5 126.2 228.4C62.1 246.4 -11.3 211.2 -74.2 173.4C-137.1 135.7 -189.4 95.4 -207.8 40.2C-226.1 -15 -210.4 -85.1 -170.1 -130.6C-129.8 -176.2 -64.9 -197.1 3.6 -200C72.2 -202.9 144.4 -187.8 194.3 -140.1";
+    const blobFivePath = "M209.5 -151.8C256.1 -108.6 268 -22.4 249.5 56.4C231.1 135.1 182.4 206.3 121.2 225.8C60 245.4 -13.6 213.2 -77.6 176.5C-141.7 139.8 -196.1 98.5 -211.3 44.6C-226.5 -9.3 -202.4 -75.7 -160.6 -117.8C-118.8 -159.9 -59.4 -177.6 11 -186.4C81.4 -195.2 162.9 -195 209.5 -151.8";
 
     onMount(() => {
         anime({
             targets: "#blob",
-            d: [{ value: blobTwoPath }, { value: blobOnePath }],
-            // rotate: 180,
+            d: [
+                { value: blobOnePath },
+                { value: blobTwoPath },
+                { value: blobThreePath },
+                { value: blobFourPath },
+                { value: blobFivePath }
+            ],
             easing: "linear",
-            duration: 10000,
+            duration: 20000,
             direction: "alternate",
             loop: true,
         });
     });
 </script>
 
-
-<!-- <svg width="500" height="500" xmlns="http://www.w3.org/2000/svg"> -->
-    <!-- <image x="0" y="0" width="500" height="500" href="{assets}/images/headshot/senior-photo-headshot-removebg.png" clip-path="url(#complexClip)" /> -->
-<!-- </svg> -->
-<!---->
 <svg
-    class="overflow-visible"
-    viewBox="0 0 700 700"
+    class="h-96 w-96" 
+    viewBox="0 0 500 500"
     xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink"
-    width="500"
-    height="500">
+    xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
         <clipPath id="blob-clip-path">
-            <path transform="translate(350, 350)" id="blob" d="M246.2 -177.4C317.3 -107.2 371.9 -4.9 355.8 87.3C339.6 179.6 252.7 261.9 159.4 291.8C66.1 321.6 -33.6 299.1 -105.6 251.9C-177.7 204.7 -222.1 132.8 -243.1 52.3C-264 -28.2 -261.4 -117.3 -217 -181.4C-172.5 -245.6 -86.3 -284.8 0.7 -285.3C87.6 -285.8 175.1 -247.7 246.2 -177.4" />
+            <path transform="translate(250, 250)" id="blob" d="M209.5 -151.8C256.1 -108.6 268 -22.4 249.5 56.4C231.1 135.1 182.4 206.3 121.2 225.8C60 245.4 -13.6 213.2 -77.6 176.5C-141.7 139.8 -196.1 98.5 -211.3 44.6C-226.5 -9.3 -202.4 -75.7 -160.6 -117.8C-118.8 -159.9 -59.4 -177.6 11 -186.4C81.4 -195.2 162.9 -195 209.5 -151.8" />
         </clipPath>
     </defs>
-    <image class="bg-blue-500" x="0" y="0" width="100%" clip-path="url(#blob-clip-path)" height="100%" href="{assets}/images/headshot/senior-photo-headshot-removebg.png"/>
+    <image class="bg-blue-500" x="0" y="0" width="100%" clip-path="url(#blob-clip-path)" height="100%" href="{assets}/images/headshot/senior_photo_headshot_blue_bg.jpg"/>
 </svg>
