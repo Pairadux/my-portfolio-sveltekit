@@ -7,6 +7,7 @@
     let year = date.getFullYear();
 </script>
 
+
 <!-- FOOTER -->
 <footer class="box-content bg-white dark:bg-black py-6 shadow-inner">
     <div class="flex flex-col items-center justify-center gap-4">
