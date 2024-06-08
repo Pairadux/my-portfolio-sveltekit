@@ -22,11 +22,21 @@
         </p>
 
         <!-- EXPERIENCE -->
+
         <h3 class="text-center dark:text-white">Experience</h3>
+        <p>
+            <span><strong class="dark:text-white">Network Services</strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
+            <br />
+            <span><em>Network Student Assistant</em></span><span class="float-right"><em>May 2024 - Current</em></span>
+        </p>
+        <ul>
+            <!--  TODO: Write network student assistant about me -->
+            <li><em>WIP</em></li>
+        </ul>
         <p>
             <span><strong class="dark:text-white">Self-Employed</strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
             <br />
-            <span><em>Freelance Web Developer</em></span><span class="float-right"><em>Current</em></span>
+            <span><em>Freelance Web Developer</em></span><span class="float-right"><em>June 2022 - Current</em></span>
         </p>
         <ul>
             <li>Design and develop high quality websites using a variety of web development tools and frameworks to meet or exceed customer requirements and expectations.</li>
@@ -90,7 +100,7 @@
         <!-- ACTIVITIES -->
         <h3 class="text-center dark:text-white">Activities</h3>
         <p>
-            <span>ACM <!-- (Association of Computing Machinery) --> - Member</span><span class="float-right">Current</span>
+            <span>ACM <!-- (Association of Computing Machinery) --> - Member</span><span class="float-right">2023 - Current</span>
             <br />
             <span>ACM <!-- (Association of Computing Machinery) --> - Treasurer</span><span class="float-right">2023 - 2023&#8224;</span>
             <br />
