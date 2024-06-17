@@ -2,7 +2,7 @@
     import ProseArticle from "$lib/general/ProseArticle.svelte";
 </script>
 
-<section class="flex mb-16">
+<section class="mb-16 flex">
     <ProseArticle>
         <!-- SUMMARY -->
         <h3 class="text-center dark:text-white">Summary</h3>
@@ -30,8 +30,11 @@
             <span><em>Network Student Assistant</em></span><span class="float-right"><em>May 2024 - Current</em></span>
         </p>
         <ul>
-            <!--  TODO: Write network student assistant about me -->
-            <li><em>WIP</em></li>
+            <li>Assist in the configuration and maintenance of network hardware and software to ensure optimal performance and security.</li>
+            <li>Monitor network activity and troubleshoot issues to minimize downtime and ensure seamless connectivity for users.</li>
+            <li>Support senior network administrators in the implementation of new network projects and upgrades.</li>
+            <li>Document network configurations, procedures, and updates to maintain an accurate and accessible knowledge base.</li>
+            <li>Provide technical support and assistance to staff and students, resolving network-related problems promptly and effectively.</li>
         </ul>
         <p>
             <span><strong class="dark:text-white">Self-Employed</strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
