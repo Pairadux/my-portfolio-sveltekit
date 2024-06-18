@@ -21,24 +21,38 @@
     });
 </script>
 
-<svg
-    class="h-80 w-80"
-    viewBox="0 0 500 500"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlns:xlink="http://www.w3.org/1999/xlink">
-    <defs>
-        <clipPath id="blob-clip-path">
-            <path
-                transform="translate(250, 250)"
-                id="blob"
-                d="M209.5 -151.8C256.1 -108.6 268 -22.4 249.5 56.4C231.1 135.1 182.4 206.3 121.2 225.8C60 245.4 -13.6 213.2 -77.6 176.5C-141.7 139.8 -196.1 98.5 -211.3 44.6C-226.5 -9.3 -202.4 -75.7 -160.6 -117.8C-118.8 -159.9 -59.4 -177.6 11 -186.4C81.4 -195.2 162.9 -195 209.5 -151.8" />
-        </clipPath>
-    </defs>
-    <image
-        x="0"
-        y="0"
-        width="100%"
-        clip-path="url(#blob-clip-path)"
-        height="100%"
-        href="{assets}/images/headshot/senior_photo_headshot_blue_bg.jpg" />
-</svg>
+<div class="relative overflow-visible h-80 w-80">
+    <svg
+        class="h-80 w-80 absolute overflow-visible"
+        viewBox="0 0 500 500"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <path
+            transform="translate(250, 250)"
+            id="blob"
+            d="M209.5 -151.8C256.1 -108.6 268 -22.4 249.5 56.4C231.1 135.1 182.4 206.3 121.2 225.8C60 245.4 -13.6 213.2 -77.6 176.5C-141.7 139.8 -196.1 98.5 -211.3 44.6C-226.5 -9.3 -202.4 -75.7 -160.6 -117.8C-118.8 -159.9 -59.4 -177.6 11 -186.4C81.4 -195.2 162.9 -195 209.5 -151.8" 
+            fill="#3B82F6"
+        />
+    </svg>
+    <svg
+        class="h-80 w-80 absolute"
+        viewBox="0 0 500 500"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink">
+        <defs>
+            <clipPath id="blob-clip-path">
+                <path
+                    transform="translate(250, 250)"
+                    id="blob"
+                    d="M209.5 -151.8C256.1 -108.6 268 -22.4 249.5 56.4C231.1 135.1 182.4 206.3 121.2 225.8C60 245.4 -13.6 213.2 -77.6 176.5C-141.7 139.8 -196.1 98.5 -211.3 44.6C-226.5 -9.3 -202.4 -75.7 -160.6 -117.8C-118.8 -159.9 -59.4 -177.6 11 -186.4C81.4 -195.2 162.9 -195 209.5 -151.8" />
+            </clipPath>
+        </defs>
+        <image
+            x="0"
+            y="0"
+            width="100%"
+            clip-path="url(#blob-clip-path)"
+            height="100%"
+            href="{assets}/images/headshot/senior_photo_headshot_blue_bg.jpg" />
+    </svg>
+</div>
