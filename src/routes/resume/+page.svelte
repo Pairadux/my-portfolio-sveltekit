@@ -6,7 +6,7 @@
     <ProseArticle>
         <!-- SUMMARY -->
         <h3 class="text-center dark:text-white">Summary</h3>
-        <p>A sophmore Computer Science student with a passion for web design and CLI applications. Experienced in designing and developing responsive websites with HTML, CSS, and JS along with a host of amazing frameworks and tools like Svelte and Tailwind. Demonstrated ability to work collaboratively on digital media projects and managing complex tasks and procedures effectively. Eager to apply my technical knowledge and problem-solving abilities in a challenging and fast-paced work environment that encourages innovation and professional growth.</p>
+        <p>A junior Computer Science student with a passion for web design and CLI applications. Experienced in designing and developing responsive websites with HTML, CSS, and JS along with a host of amazing frameworks and tools like Svelte and Tailwind. Demonstrated ability to work collaboratively on digital media projects and managing complex tasks and procedures effectively. Eager to apply my technical knowledge and problem-solving abilities in a challenging and fast-paced work environment that encourages innovation and professional growth.</p>
 
         <!-- EDUCATION -->
         <h3 class="text-center dark:text-white">Education</h3>
@@ -33,7 +33,6 @@
             <li>Assist in the configuration and maintenance of network hardware and software to ensure optimal performance and security.</li>
             <li>Monitor network activity and troubleshoot issues to minimize downtime and ensure seamless connectivity for users.</li>
             <li>Support senior network administrators in the implementation of new network projects and upgrades.</li>
-            <li>Document network configurations, procedures, and updates to maintain an accurate and accessible knowledge base.</li>
             <li>Provide technical support and assistance to staff and students, resolving network-related problems promptly and effectively.</li>
         </ul>
         <p>
@@ -53,6 +52,7 @@
         <ul>
             <li>Utilized proprietary software to complete designated tasks to meet client needs and expectations in a timely manner.</li>
             <li>Interacted with superiors frequently to ensure accurate utilization of proprietary software and completion of client requests.</li>
+            <li>Created automated workflows to assist in the completion of medial/tedious office tasks.</li>
         </ul>
         <p>
             <span><strong class="dark:text-white">New Media Center</strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
@@ -97,7 +97,7 @@
             <br />
             <strong class="dark:text-white">Applications:</strong> <span>Adobe Products, Microsoft Office, Visual Studio Code, Neovim, JetBrains</span>
             <br />
-            <strong class="dark:text-white">Misc:</strong> <span>Command Line Operation, Data Management, API Querying</span>
+            <strong class="dark:text-white">Misc:</strong> <span>Command Line Operation, Data Management, API Querying, Networking Fundamentals</span>
         </p>
 
         <!-- ACTIVITIES -->
@@ -111,7 +111,7 @@
         </p>
 
         <!-- CERTIFICIATIONS & ACHIEVEMENTS -->
-        <h3 class="text-center dark:text-white">Certifications & Achievements</h3>
+        <h3 class="text-center dark:text-white">Certifications &amp Achievements</h3>
         <p>
             <span>Python</span><span class="float-right">Codecademy 2022</span>
             <br />
@@ -119,7 +119,7 @@
             <br />
             <span>MS Office</span><span class="float-right">Certiport 2020</span>
             <br />
-            <span>Dean's List</span><span class="float-right">Fall 2022 - Fall 2023</span>
+            <span>Dean's List</span><span class="float-right">Fall 2022 - Spring 2024</span>
             <br />
             <span>Zell Miller Recipient</span><span class="float-right">May 2022</span>
             <br />
