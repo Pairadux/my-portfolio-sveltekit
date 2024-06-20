@@ -10,7 +10,7 @@
 <div class="flex items-center w-full md:w-fit justify-around">
   <div class="h-6 md:hidden w-6"></div>
 
-  <a href="/"><h1 class="text-center dark:text-white salsa text-3xl underline decoration-4 underline-offset-2">Austin Gause</h1></a>
+  <a href="/"><h1 class="text-center dark:text-white heading-font text-3xl underline decoration-4 underline-offset-2">Austin Gause</h1></a>
 
     <button
       type="button"

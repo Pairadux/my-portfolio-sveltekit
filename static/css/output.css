@@ -1521,8 +1521,8 @@ video {
   height: 2rem;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-80 {
+  height: 20rem;
 }
 
 .h-\[95\%\] {
@@ -1539,18 +1539,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-96 {
-  height: 24rem;
-}
-
-.h-80 {
-  height: 20rem;
-}
-
-.h-\[999rem\] {
-  height: 999rem;
 }
 
 .min-h-screen {
@@ -1585,8 +1573,8 @@ video {
   width: 2rem;
 }
 
-.w-\[500px\] {
-  width: 500px;
+.w-80 {
+  width: 20rem;
 }
 
 .w-\[95\%\] {
@@ -1606,18 +1594,6 @@ video {
   width: 100vw;
 }
 
-.w-96 {
-  width: 24rem;
-}
-
-.w-80 {
-  width: 20rem;
-}
-
-.w-\[999rem\] {
-  width: 999rem;
-}
-
 .max-w-sm {
   max-width: 24rem;
 }
@@ -1629,11 +1605,6 @@ video {
 
 .-translate-y-1\/2 {
   --tw-translate-y: -50%;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-
-.translate-y-1\/2 {
-  --tw-translate-y: 50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
@@ -2017,9 +1988,18 @@ video {
 
 /* } */
 
-.salsa {
-  font-family: "Salsa", sans-serif !important;
-  font-weight: 400 !important;
+/* 
+    Potential Fonts:
+    - Salsa
+    - Rubik Mono One
+    - Jetbrains Mono
+*/
+
+.heading-font {
+  font-family: "JetBrains Mono", monospace !important;
+  font-optical-sizing: auto;
+  /* SPECIFIC TO JETBRAINS MONO FONT */
+  font-weight: 800 !important;
   font-style: normal !important;
 }
 

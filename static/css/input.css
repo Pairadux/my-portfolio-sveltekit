@@ -14,8 +14,16 @@
 /*     color: #171717; */
 /* } */
 
-.salsa {
-    font-family: "Salsa", sans-serif !important;
-    font-weight: 400 !important; 
+/* 
+    Potential Fonts:
+    - Salsa
+    - Rubik Mono One
+    - Jetbrains Mono
+*/
+
+.heading-font {
+    font-family: "JetBrains Mono", monospace !important;
+    font-optical-sizing: auto; /* SPECIFIC TO JETBRAINS MONO FONT */
+    font-weight: 800 !important; 
     font-style: normal !important;
 }

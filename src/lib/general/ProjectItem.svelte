@@ -14,7 +14,7 @@
 
         <!-- PORTFOLIO HOVER ITEMS -->
         <div class="absolute left-1/2 top-1/2 flex h-full w-full bg-blue-500 -translate-x-1/2 -translate-y-1/2 flex-col items-center justify-center gap-2 px-4">
-            <h2 class="text-center text-2xl salsa text-white transition md:text-3xl">
+            <h2 class="text-center text-2xl heading-font text-white transition md:text-3xl">
                 {title}
             </h2>
             <p class="text-center text-lg text-white md:text-xl">
@@ -29,7 +29,7 @@
             alt="" />
 
         <!-- PORTFOLIO TITLE -->
-        <h2 class="absolute left-1/2 top-1/2 w-full salsa group-hover:invisible group-hover:opacity-0 transition-opacity -translate-x-1/2 -translate-y-1/2 px-1 text-center text-2xl text-white md:text-3xl">
+        <h2 class="absolute left-1/2 top-1/2 w-full heading-font group-hover:invisible group-hover:opacity-0 transition-opacity -translate-x-1/2 -translate-y-1/2 px-1 text-center text-2xl text-white md:text-3xl">
             {title}
         </h2>
 
