@@ -11,7 +11,7 @@
         <!-- EDUCATION -->
         <h3 class="text-center dark:text-white">Education</h3>
         <p>
-            <span><strong class="dark:text-white">Valdosta State University<span class="hidden sm:inline">, GPA 3.75</span></strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
+            <span><strong class="dark:text-white">Valdosta State University<span class="hidden sm:inline">, GPA 3.73</span></strong></span><span class="float-right"><strong class="dark:text-white">Valdosta, GA</strong></span>
             <br />
             <span><em>B.S. Computer Science, Math Minor</em></span><span class="float-right"><em>May 2026</em></span>
         </p>
