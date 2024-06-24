@@ -5,8 +5,7 @@
 </script>
 
 <!-- PORTFOLIO SECTION -->
-<section class="flex flex-col m-auto items-center">
-
+<section class="m-auto flex flex-col items-center">
     <!-- TITLE -->
     <SectionHeader>
         <svelte:fragment slot="header">Projects</svelte:fragment>
@@ -16,12 +15,13 @@
     <p class="text-sm dark:text-white">* = unfinished projects</p>
 
     <!-- PORTFOLIO ITEMS CONTAINER -->
-    <div class="flex flex-col gap-8 mt-8 mb-16 lg:grid lg:grid-cols-3">
+    <div class="mb-16 mt-8 flex flex-col gap-8 lg:grid lg:grid-cols-3">
         {#each projects as project}
             <ProjectItem
                 title={project.title}
                 description={project.description}
-                image={project.image} />
+                image={project.image}
+                href={project.href} />
         {/each}
     </div>
 </section>
