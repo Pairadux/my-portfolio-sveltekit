@@ -53,6 +53,6 @@
             width="100%"
             clip-path="url(#blob-clip-path)"
             height="100%"
-            href="{assets}/images/headshot/senior_photo_headshot_blue_bg.jpg" />
+            href="{assets}/images/headshot/senior-photo-headshot-removebg-crop-circle.png" />
     </svg>
 </div>
