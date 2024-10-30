@@ -1,7 +1,8 @@
 <script lang="ts">
-    import Hero from "./components/hero/Hero.svelte";
+    // import Hero from "./components/hero/Hero.svelte";
+    import Hero from "./components/Hero.svelte"
     // import Greeting from "./components/Greeting.svelte";
-    import SkillsContainer from "./components/hero/SkillsContainer.svelte";
+    import SkillsContainer from "./components/SkillsContainer.svelte";
     import Projects from "./components/Projects.svelte";
     // import Testimonials from "./components/Testimonials.svelte";
     import Cta from "./components/CTA.svelte";

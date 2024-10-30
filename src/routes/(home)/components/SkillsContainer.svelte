@@ -1,8 +1,10 @@
 <script lang="ts">
     import { skills } from "$lib/data/skills";
-    import Skill from "./Skill.svelte";
+    import Skill from "$lib/general/Skill.svelte"
     import SectionHeader from "$lib/general/SectionHeader.svelte";
 </script>
+
+<!-- TODO: update skills -->
 
 <!-- SKILLS CONTAINER -->
 <div class="relative md:block">
