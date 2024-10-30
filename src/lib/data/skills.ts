@@ -10,6 +10,8 @@ import Rust from "$lib/skills/Rust.svelte";
 import Svelte from "$lib/skills/Svelte.svelte";
 import Tailwind from "$lib/skills/Tailwind.svelte";
 
+// TODO: update skills
+
 export interface skill {
     icon: string;
     name: string;

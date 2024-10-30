@@ -86,6 +86,8 @@
             <li>Managed job-site readiness and work area preparation for various operations.</li>
         </ul>
 
+        <!-- TODO: update skills -->
+
         <!-- SKILLS -->
         <h3 class="text-center dark:text-white">Skills</h3>
         <p>
@@ -109,6 +111,8 @@
             <br />
             <span>Housing Move In Volunteer</span><span class="float-right">Fall 2023</span>
         </p>
+
+        <!-- TODO: reorder certs to be in chronological order -->
 
         <!-- CERTIFICIATIONS & ACHIEVEMENTS -->
         <h3 class="text-center dark:text-white">Certifications &amp Achievements</h3>

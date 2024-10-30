@@ -4,8 +4,6 @@
     import SectionHeader from "$lib/general/SectionHeader.svelte";
 </script>
 
-<!-- TODO: update skills -->
-
 <!-- SKILLS CONTAINER -->
 <div class="relative md:block">
     <SectionHeader>
