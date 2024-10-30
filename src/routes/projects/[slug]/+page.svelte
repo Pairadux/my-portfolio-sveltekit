@@ -5,4 +5,4 @@
 </script>
 
 <h1 class="text-white text-3xl text-center">{data.post.title}</h1>
-<p class="text-white text-center">TEST</p>
+<p class="text-white text-center">{data.post.content}</p>
