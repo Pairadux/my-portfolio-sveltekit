@@ -2,11 +2,8 @@
     import { assets } from "$app/paths";
 </script>
 
-<image
-    x="0"
-    y="0"
-    width="100%"
-    height="100%"
-    href="{assets}/images/headshot/senior-photo-headshot-removebg.png"
-    class="h-full w-full rounded-full z-10 relative"
-     />
+    <!-- src="{assets}/images/headshot/senior-photo-headshot-removebg-crop-circle.png" -->
+<img
+    src="{assets}/images/headshot/senior_photo_headshot_blue_bg.jpg"
+    class="z-10 h-80 w-80 rounded-full"
+    alt="" />
