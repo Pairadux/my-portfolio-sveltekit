@@ -9,9 +9,9 @@
 
 
 <!-- FOOTER -->
-<footer class="box-content bg-white dark:bg-black py-6 shadow-inner">
-    <div class="flex flex-col items-center justify-center gap-4">
-        <ul class="flex flex-row gap-4">
+<footer class="box-content bg-white dark:bg-black py-6 shadow-inner dark:shadow-white">
+    <div class="flex flex-col items-center justify-center gap-2">
+        <ul class="flex flex-row gap-4 p-2">
             {#each socialMedias as item}
                 <SocialIcon item={ item } />
             {/each}
