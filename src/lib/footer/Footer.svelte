@@ -13,7 +13,7 @@
     <div class="flex flex-col items-center justify-center gap-2">
         <ul class="flex flex-row gap-4 p-2">
             {#each socialMedias as item}
-                <SocialIcon item={ item } />
+                <SocialIcon {item} />
             {/each}
         </ul>
 
