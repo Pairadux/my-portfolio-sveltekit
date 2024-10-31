@@ -1,21 +1,22 @@
 <script lang="ts">
     import ProseArticle from "$lib/general/ProseArticle.svelte";
+    import Haiku from "$lib/general/Haiku.svelte";
+    // TODO: pull haikus from a list or file
 </script>
 
 <section class="mb-16 flex">
     <ProseArticle>
         <h3 class="text-center dark:text-white">Haikus</h3>
-        <p class="dark:text-white font-bold">Fortnite</p>
-        <p class="">
-            Fortnite, oh forntite<br />
-            do thou not play fortnite<br />
-            for it is good
-        </p>
-        <hr>
-        <p class="">
-            Fortnite, oh forntite<br />
-            do thou not play fortnite<br />
-            for it is good
-        </p>
+
+        <Haiku>
+            <svelte:fragment slot="title">
+                What is a haiku?
+            </svelte:fragment>
+            <svelte:fragment slot="haiku">
+                What is a haiku?<br />
+                All this "five-seven-five" stuff,<br />
+                It doesn't make sense.
+            </svelte:fragment>
+        </Haiku>
     </ProseArticle>
 </section>
