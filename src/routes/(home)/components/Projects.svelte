@@ -5,7 +5,7 @@
 </script>
 
 <!-- PORTFOLIO SECTION -->
-<section class="flex flex-col items-center lg:w-full">
+<section class="flex flex-col items-center w-full">
 
     <!-- TITLE -->
     <div class="w-4/5">
