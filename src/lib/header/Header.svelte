@@ -7,7 +7,7 @@
 <!-- <MessageBar /> -->
 
 <!-- HEADER CONTAINER -->
-<header class="box-border bg-white dark:bg-black p-4 shadow-sm dark:shadow-md mb-16">
+<header class="box-border bg-white dark:bg-black p-4 shadow-sm dark:shadow-lg mb-16">
     <div class="container m-auto flex flex-col items-center md:flex-row md:justify-around">
         <Brand />
         <Nav />
