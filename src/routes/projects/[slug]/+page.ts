@@ -1,11 +1,17 @@
 import type { PageLoad } from './$types';
+import { error } from '@sveltejs/kit';
 
-// FIX: correctly pull data for project item
-export const load: PageLoad = ({ params }) => {	
-    return {		
-        post: {			
-            title: `Title for ${params.slug} goes here`,			
-            content: `Content for ${params.slug} goes here`,		
-        },	
-    };
+export const load: PageLoad = async ({ params }) => {	
+    const { slug } = params;
+
+    try {
+        const componentModule = await import(`$lib/data/projects/${slug}.svelte`);
+        const component = componentModule.default;
+
+        return {
+            component,
+        };
+    } catch (e) {
+        throw error(404, 'Project not found');
+    }
 };
