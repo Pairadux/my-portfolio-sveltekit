@@ -5,9 +5,9 @@
 
 <section class="mb-16">
     <ProseArticle>
-        <h3 class="dark:text-white">
-            The Amazing World of <strike>Gumball</strike> Austin
-        </h3>
+        <h2>
+            The Amazing World of <strike class="decoration-4 decoration-red-500">Gumball</strike> Austin
+        </h2>
         <p>
             Greetings, earthlings &#128406! I'm Austin, a Computer Science major
             with a minor in Math at Valdosta State University. I'm a network
