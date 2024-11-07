@@ -8,7 +8,7 @@
 </script>
 
 <!-- FOOTER -->
-<footer class="mt-16 box-content bg-white py-6 shadow-inner dark:bg-black dark:shadow-white">
+<footer class="mt-16 box-content bg-white py-6 shadow-inner shadow-inner-strong dark:bg-black ">
     <div class="flex flex-col items-center justify-center gap-2">
         <ul class="flex flex-row gap-4 p-2">
             {#each socialMedias as item}
