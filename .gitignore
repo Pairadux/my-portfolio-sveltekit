@@ -10,3 +10,4 @@ vite.config.ts.timestamp-*
 .vscode
 /build
 temp
+package-lock.json
